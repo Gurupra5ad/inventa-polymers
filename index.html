@@ -1,1637 +1,655 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
-    <title>Inventa Polymer | Homepage</title>
-    <!-- Stylesheets -->
-    <link href="css/bootstrap.css" rel="stylesheet" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Quper Construction template" />
     <link
-      href="plugins/revolution/css/settings.css"
-      rel="stylesheet"
-      type="text/css"
+      rel="shortcut icon"
+      href="assets/img/favicon.ico"
+      type="image/x-icon"
     />
-    <!-- REVOLUTION SETTINGS STYLES -->
+    <title>Inventa Technologies</title>
+    <!-- Bootstrap CSS -->
     <link
-      href="plugins/revolution/css/layers.css"
       rel="stylesheet"
-      type="text/css"
+      href="assets/vendors/bootstrap/css/bootstrap.min.css"
     />
-    <!-- REVOLUTION LAYERS STYLES -->
+    <link rel="stylesheet" href="assets/vendors/font-awesome/css/all.css" />
+    <link rel="stylesheet" href="assets/vendors/icomoon/style.css" />
+    <link rel="stylesheet" href="assets/vendors/slick/slick.css" />
+    <link rel="stylesheet" href="assets/vendors/slick/slick-theme.css" />
+    <link rel="stylesheet" href="assets/vendors/animation/animate.css" />
     <link
-      href="plugins/revolution/css/navigation.css"
       rel="stylesheet"
-      type="text/css"
+      href="assets/vendors/mCustomScrollbar/jquery.mCustomScrollbar.min.css"
     />
-    <!-- REVOLUTION NAVIGATION STYLES -->
-    <link href="css/style.css" rel="stylesheet" />
-    <link href="css/responsive.css" rel="stylesheet" />
-
-    <!--Color Switcher Mockup-->
-    <link href="css/color-switcher-design.css" rel="stylesheet" />
-
-    <!--Color Themes-->
-    <link
-      id="theme-color-file"
-      href="css/color-themes/default-theme.css"
-      rel="stylesheet"
-    />
-
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
-    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
-
-    <!-- Responsive -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
-    />
-
-    <!--[if lt IE 9
-      ]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script
-    ><![endif]-->
-    <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+    <!-- style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
   </head>
 
   <body>
-    <div class="page-wrapper">
-      <!-- Preloader -->
-      <div class="preloader"></div>
-
-      <!-- Main Header-->
-      <header class="main-header">
-        <!--Header-Upper-->
-        <div class="header-upper">
-          <div class="auto-container">
-            <div class="clearfix">
-              <div class="pull-left logo-box">
-                <div class="logo">
-                  <a href="index.html"
-                    ><img src="images/logo-actual.png" alt="" title=""
-                  /></a>
-                </div>
+    <div class="body_wrapper dark_bg">
+      <div id="preloader">
+        <div class="product_name">Inventa</div>
+      </div>
+      <header class="dark_menu">
+        <div class="header_top">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-9 col-md-10">
+                <ul class="list-unstyled menu_contact_info">
+                  <li>
+                    <a href="mailto:info@inventatechnologies.com">
+                      <i class="far fa-envelope-open"></i
+                      >info@inventatechnologies.com</a
+                    >
+                  </li>
+                  <li>
+                    <a href="tell:451951127851"
+                      ><i class="fas fa-phone"></i>+451 - 951 127 851</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="far fa-clock"></i>Mon - Sat: 10:00am -
+                      18:00pm</a
+                    >
+                  </li>
+                </ul>
               </div>
-
-              <div class="pull-right upper-right clearfix">
-                <!--Info Box-->
-                <div class="upper-column info-box">
-                  <div class="icon-box">
-                    <span class="flaticon-stamp"></span>
-                  </div>
-                  <ul>
-                    <li><strong>Certified Company</strong></li>
-                    <li>ISO 9001: 2010</li>
-                  </ul>
-                </div>
-
-                <!--Info Box-->
-                <div class="upper-column info-box">
-                  <div class="icon-box">
-                    <span class="flaticon-trophy-silhouette"></span>
-                  </div>
-                  <ul>
-                    <li><strong>Great Industrial</strong></li>
-                    <li>Solution Provider</li>
-                  </ul>
-                </div>
-
-                <!--Info Box-->
-                <div class="upper-column info-box">
-                  <div class="icon-box">
-                    <span class="flaticon-earth-globe"></span>
-                  </div>
-                  <ul>
-                    <li><strong>Address</strong></li>
-                    <li>Mountain Drive, Varick Str, UK</li>
-                  </ul>
-                </div>
+              <div class="col-lg-3 col-md-2 text-right">
+                <ul class="list-unstyled f_social">
+                  <li>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
-        <!--End Header Upper-->
-
-        <!--Header Lower-->
-        <div class="header-lower">
-          <div class="auto-container">
-            <div class="nav-outer clearfix">
-              <!-- Main Menu -->
-              <nav class="main-menu navbar-expand-md">
-                <div class="navbar-header">
-                  <!-- Toggle Button -->
-                  <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                  >
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                </div>
-
-                <div
-                  class="navbar-collapse collapse clearfix"
-                  id="navbarSupportedContent"
-                >
-                  <ul class="navigation clearfix">
-                    <li class="current dropdown">
-                      <a href="#">Home</a>
-                    </li>
-                    <li class="dropdown">
-                      <a href="#">About</a>
-                    </li>
-                    <li class="dropdown">
-                      <a href="#">Projects</a>
-                      <ul>
-                        <li><a href="projects.html">Our projects</a></li>
-                        <li>
-                          <a href="projects-detail.html">Projects Details</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li class="dropdown">
-                      <a href="#">Blog</a>
-                      <ul>
-                        <li><a href="blog.html">Blog Three Column</a></li>
-                        <li>
-                          <a href="blog-list-view.html">Blog List View</a>
-                        </li>
-                        <li><a href="blog-modern.html">Blog Modern View</a></li>
-                        <li>
-                          <a href="blog-classic.html">Blog with Sidebar</a>
-                        </li>
-                        <li>
-                          <a href="blog-detail.html">Blog Post Details</a>
-                        </li>
-                        <li><a href="error-page.html">404 Page</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="contact.html">Contact us</a></li>
-                  </ul>
-                </div>
-              </nav>
-              <!-- Main Menu End-->
-              <div class="outer-box clearfix">
-                <div class="advisor-box">
-                  <a href="#" class="theme-btn advisor-btn"
-                    ><span>Get a Quote</span></a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--End Header Lower-->
-
-        <!--Sticky Header-->
-        <div class="sticky-header">
-          <div class="auto-container clearfix">
-            <!--Logo-->
-            <div class="logo pull-left">
-              <a href="index.html" class="img-responsive"
-                ><img src="images/logo-actual.png" alt="" title=""
-              /></a>
-            </div>
-
-            <!--Right Col-->
-            <div class="right-col pull-right">
-              <!-- Main Menu -->
-              <nav class="main-menu navbar-expand-md">
-                <button
-                  class="navbar-toggler"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#navbarSupportedContent1"
-                  aria-controls="navbarSupportedContent1"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
-
-                <div
-                  class="navbar-collapse collapse clearfix"
-                  id="navbarSupportedContent1"
-                >
-                  <ul class="navigation clearfix">
-                    <li class="current dropdown">
-                      <a href="#">Home</a>
-                    </li>
-                    <li class="dropdown">
-                      <a href="#">About</a>
-                    </li>
-                    <li class="dropdown">
-                      <a href="#">Projects</a>
-                      <ul>
-                        <li><a href="projects.html">Our projects</a></li>
-                        <li>
-                          <a href="projects-detail.html">Projects Details</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li class="dropdown">
-                      <a href="#">Blog</a>
-                      <ul>
-                        <li><a href="blog.html">Blog Three Column</a></li>
-                        <li>
-                          <a href="blog-list-view.html">Blog List View</a>
-                        </li>
-                        <li><a href="blog-modern.html">Blog Modern View</a></li>
-                        <li>
-                          <a href="blog-classic.html">Blog with Sidebar</a>
-                        </li>
-                        <li>
-                          <a href="blog-detail.html">Blog Post Details</a>
-                        </li>
-                        <li><a href="error-page.html">404 Page</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="contact.html">Contact us</a></li>
-                  </ul>
-                </div>
-              </nav>
-              <!-- Main Menu End-->
-            </div>
-          </div>
-        </div>
-        <!--End Sticky Header-->
-      </header>
-      <!--End Main Header -->
-
-      <!--Main Slider-->
-      <section class="main-slider">
-        <div
-          class="rev_slider_wrapper fullwidthbanner-container"
-          id="rev_slider_one_wrapper"
-          data-source="gallery"
-        >
-          <div
-            class="rev_slider fullwidthabanner"
-            id="rev_slider_one"
-            data-version="5.4.1"
-          >
-            <ul>
-              <li
-                data-description="Slide Description"
-                data-easein="default"
-                data-easeout="default"
-                data-fsmasterspeed="1500"
-                data-fsslotamount="7"
-                data-fstransition="fade"
-                data-hideafterloop="0"
-                data-hideslideonmobile="off"
-                data-index="rs-1687"
-                data-masterspeed="default"
-                data-param1=""
-                data-param10=""
-                data-param2=""
-                data-param3=""
-                data-param4=""
-                data-param5=""
-                data-param6=""
-                data-param7=""
-                data-param8=""
-                data-param9=""
-                data-rotate="0"
-                data-saveperformance="off"
-                data-slotamount="default"
-                data-thumb="images/main-slider/image-1.jpg"
-                data-title="Slide Title"
-                data-transition="parallaxvertical"
-              >
-                <img
-                  alt=""
-                  class="rev-slidebg"
-                  data-bgfit="cover"
-                  data-bgparallax="10"
-                  data-bgposition="center center"
-                  data-bgrepeat="no-repeat"
-                  data-no-retina=""
-                  src="images/main-slider/image-1.jpg"
-                />
-
-                <div
-                  class="tp-caption"
-                  data-paddingbottom="[0,0,0,0]"
-                  data-paddingleft="[0,0,0,0]"
-                  data-paddingright="[0,0,0,0]"
-                  data-paddingtop="[0,0,0,0]"
-                  data-responsive_offset="on"
-                  data-type="text"
-                  data-height="none"
-                  data-width="['720','720','650','450']"
-                  data-whitespace="normal"
-                  data-hoffset="['15','15','15','15']"
-                  data-voffset="['-100','-110','-70','-75']"
-                  data-x="['left','left','left','left']"
-                  data-y="['middle','middle','middle','middle']"
-                  data-textalign="['top','top','top','top']"
-                  data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-                >
-                  <h2>
-                    Get a Solution For <br />
-                    All <span class="theme_color">industries</span>
-                  </h2>
-                </div>
-
-                <div
-                  class="tp-caption tp-resizeme"
-                  data-paddingbottom="[0,0,0,0]"
-                  data-paddingleft="[0,0,0,0]"
-                  data-paddingright="[0,0,0,0]"
-                  data-paddingtop="[0,0,0,0]"
-                  data-responsive_offset="on"
-                  data-type="text"
-                  data-height="none"
-                  data-whitespace="normal"
-                  data-width="['550','720','650','450']"
-                  data-hoffset="['15','15','15','15']"
-                  data-voffset="['30','15','20','5']"
-                  data-x="['left','left','left','left']"
-                  data-y="['middle','middle','middle','middle']"
-                  data-textalign="['top','top','top','top']"
-                  data-frames='[{"from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-                >
-                  <div class="text">
-                    We are team of the professionals who will build everything
-                    you can draw on a paper
-                  </div>
-                </div>
-
-                <div
-                  class="tp-caption tp-resizeme"
-                  data-paddingbottom="[0,0,0,0]"
-                  data-paddingleft="[0,0,0,0]"
-                  data-paddingright="[0,0,0,0]"
-                  data-paddingtop="[0,0,0,0]"
-                  data-responsive_offset="on"
-                  data-type="text"
-                  data-height="none"
-                  data-width="['720','720','650','450']"
-                  data-whitespace="normal"
-                  data-hoffset="['15','15','15','15']"
-                  data-voffset="['125','110','100','95']"
-                  data-x="['left','left','left','left']"
-                  data-y="['middle','middle','middle','middle']"
-                  data-textalign="['top','top','top','top']"
-                  data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-                >
-                  <a href="about.html" class="theme-btn btn-style-one"
-                    >Learn More</a
-                  >
-                  <a href="solutions.html" class="theme-btn btn-style-two"
-                    >Our Solutions</a
-                  >
-                </div>
-              </li>
-
-              <li
-                data-description="Slide Description"
-                data-easein="default"
-                data-easeout="default"
-                data-fsmasterspeed="1500"
-                data-fsslotamount="7"
-                data-fstransition="fade"
-                data-hideafterloop="0"
-                data-hideslideonmobile="off"
-                data-index="rs-1688"
-                data-masterspeed="default"
-                data-param1=""
-                data-param10=""
-                data-param2=""
-                data-param3=""
-                data-param4=""
-                data-param5=""
-                data-param6=""
-                data-param7=""
-                data-param8=""
-                data-param9=""
-                data-rotate="0"
-                data-saveperformance="off"
-                data-slotamount="default"
-                data-thumb="images/main-slider/image-2.jpg"
-                data-title="Slide Title"
-                data-transition="parallaxvertical"
-              >
-                <img
-                  alt=""
-                  class="rev-slidebg"
-                  data-bgfit="cover"
-                  data-bgparallax="10"
-                  data-bgposition="center center"
-                  data-bgrepeat="no-repeat"
-                  data-no-retina=""
-                  src="images/main-slider/image-2.jpg"
-                />
-
-                <div
-                  class="tp-caption"
-                  data-paddingbottom="[0,0,0,0]"
-                  data-paddingleft="[0,0,0,0]"
-                  data-paddingright="[0,0,0,0]"
-                  data-paddingtop="[0,0,0,0]"
-                  data-responsive_offset="on"
-                  data-type="text"
-                  data-height="none"
-                  data-width="['720','720','650','450']"
-                  data-whitespace="normal"
-                  data-hoffset="['15','15','15','15']"
-                  data-voffset="['-100','-110','-70','-75']"
-                  data-x="['left','left','left','left']"
-                  data-y="['middle','middle','middle','middle']"
-                  data-textalign="['top','top','top','top']"
-                  data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-                >
-                  <h2>
-                    Get a Solution For <br />
-                    All <span class="theme_color">industries</span>
-                  </h2>
-                </div>
-
-                <div
-                  class="tp-caption tp-resizeme"
-                  data-paddingbottom="[0,0,0,0]"
-                  data-paddingleft="[0,0,0,0]"
-                  data-paddingright="[0,0,0,0]"
-                  data-paddingtop="[0,0,0,0]"
-                  data-responsive_offset="on"
-                  data-type="text"
-                  data-height="none"
-                  data-whitespace="normal"
-                  data-width="['550','720','650','450']"
-                  data-hoffset="['15','15','15','15']"
-                  data-voffset="['30','15','20','5']"
-                  data-x="['left','left','left','left']"
-                  data-y="['middle','middle','middle','middle']"
-                  data-textalign="['top','top','top','top']"
-                  data-frames='[{"from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-                >
-                  <div class="text">
-                    We are team of the professionals who will build everything
-                    you can draw on a paper
-                  </div>
-                </div>
-
-                <div
-                  class="tp-caption tp-resizeme"
-                  data-paddingbottom="[0,0,0,0]"
-                  data-paddingleft="[0,0,0,0]"
-                  data-paddingright="[0,0,0,0]"
-                  data-paddingtop="[0,0,0,0]"
-                  data-responsive_offset="on"
-                  data-type="text"
-                  data-height="none"
-                  data-width="['720','720','650','450']"
-                  data-whitespace="normal"
-                  data-hoffset="['15','15','15','15']"
-                  data-voffset="['125','110','100','95']"
-                  data-x="['left','left','left','left']"
-                  data-y="['middle','middle','middle','middle']"
-                  data-textalign="['top','top','top','top']"
-                  data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-                >
-                  <a href="about.html" class="theme-btn btn-style-one"
-                    >Learn More</a
-                  >
-                  <a href="solutions.html" class="theme-btn btn-style-two"
-                    >Our Solutions</a
-                  >
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <!--End Main Slider-->
-
-      <!--Services Section-->
-      <section class="services-section">
-        <div class="auto-container">
-          <!--Sec Title-->
-          <div class="sec-title centered">
-            <h2>Our Services</h2>
-            <div class="separater"></div>
-            <div class="text">
-              We Provide Greate Services for our Clients in All Projects
-            </div>
-          </div>
-          <div class="row clearfix">
-            <!--Services Block-->
-            <div class="services-block col-lg-4 col-md-6 col-sm-12">
-              <div class="inner-box">
-                <div class="upper-box">
-                  <span
-                    class="
-                      icon
-                      flaticon-chemistry-class-flask-with-liquid-for-experimentation
-                    "
-                  ></span>
-                  <h3>
-                    <a href="chemical-enginering.html">Chemical Engineering</a>
-                  </h3>
-                </div>
-                <div class="lower-box">
-                  <div class="image">
-                    <img src="images/resource/services-1.jpg" alt="" />
-                    <div class="overlay-box">
-                      <div class="text">
-                        Modern society consumes large amounts of fuel, and the
-                        energy industry is a crucial part of the infrastructure
-                        and maintenance of society in almost all countries.
-                      </div>
-                      <a href="projects-detail.html" class="link-btn"
-                        ><span class="fa fa-link"></span
-                      ></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!--Services Block-->
-            <div class="services-block col-lg-4 col-md-6 col-sm-12">
-              <div class="inner-box">
-                <div class="upper-box">
-                  <span class="icon flaticon-flash"></span>
-                  <h3>
-                    <a href="energy-power.html">Energy & Power Engineering</a>
-                  </h3>
-                </div>
-                <div class="lower-box">
-                  <div class="image">
-                    <img src="images/resource/services-2.jpg" alt="" />
-                    <div class="overlay-box">
-                      <div class="text">
-                        Modern society consumes large amounts of fuel, and the
-                        energy industry is a crucial part of the infrastructure
-                        and maintenance of society in almost all countries.
-                      </div>
-                      <a href="projects-detail.html" class="link-btn"
-                        ><span class="fa fa-link"></span
-                      ></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!--Services Block-->
-            <div class="services-block col-lg-4 col-md-6 col-sm-12">
-              <div class="inner-box">
-                <div class="upper-box">
-                  <span class="icon flaticon-fire-extinguisher"></span>
-                  <h3><a href="energy-power.html">Oil & Gas Engineering</a></h3>
-                </div>
-                <div class="lower-box">
-                  <div class="image">
-                    <img src="images/resource/services-3.jpg" alt="" />
-                    <div class="overlay-box">
-                      <div class="text">
-                        Modern society consumes large amounts of fuel, and the
-                        energy industry is a crucial part of the infrastructure
-                        and maintenance of society in almost all countries.
-                      </div>
-                      <a href="projects-detail.html" class="link-btn"
-                        ><span class="fa fa-link"></span
-                      ></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!--Services Block-->
-            <div class="services-block col-lg-4 col-md-6 col-sm-12">
-              <div class="inner-box">
-                <div class="upper-box">
-                  <span class="icon fa fa-wrench"></span>
-                  <h3><a href="civil.html">Civil Engineering</a></h3>
-                </div>
-                <div class="lower-box">
-                  <div class="image">
-                    <img src="images/resource/services-4.jpg" alt="" />
-                    <div class="overlay-box">
-                      <div class="text">
-                        Modern society consumes large amounts of fuel, and the
-                        energy industry is a crucial part of the infrastructure
-                        and maintenance of society in almost all countries.
-                      </div>
-                      <a href="projects-detail.html" class="link-btn"
-                        ><span class="fa fa-link"></span
-                      ></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!--Services Block-->
-            <div class="services-block col-lg-4 col-md-6 col-sm-12">
-              <div class="inner-box">
-                <div class="upper-box">
-                  <span
-                    class="icon flaticon-branch-with-leaves-black-shape"
-                  ></span>
-                  <h3><a href="civil.html">Agriculture Engineering</a></h3>
-                </div>
-                <div class="lower-box">
-                  <div class="image">
-                    <img src="images/resource/services-5.jpg" alt="" />
-                    <div class="overlay-box">
-                      <div class="text">
-                        Modern society consumes large amounts of fuel, and the
-                        energy industry is a crucial part of the infrastructure
-                        and maintenance of society in almost all countries.
-                      </div>
-                      <a href="projects-detail.html" class="link-btn"
-                        ><span class="fa fa-link"></span
-                      ></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!--Services Block-->
-            <div class="services-block col-lg-4 col-md-6 col-sm-12">
-              <div class="inner-box">
-                <div class="upper-box">
-                  <span class="icon flaticon-settings-2"></span>
-                  <h3><a href="mechanical.html">Mechanical Engineering</a></h3>
-                </div>
-                <div class="lower-box">
-                  <div class="image">
-                    <img src="images/resource/services-6.jpg" alt="" />
-                    <div class="overlay-box">
-                      <div class="text">
-                        Modern society consumes large amounts of fuel, and the
-                        energy industry is a crucial part of the infrastructure
-                        and maintenance of society in almost all countries.
-                      </div>
-                      <a href="projects-detail.html" class="link-btn"
-                        ><span class="fa fa-link"></span
-                      ></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--End Services Section-->
-
-      <!--Product Section-->
-      <section class="product-section">
-        <div
-          class="upper-box"
-          style="background-image: url(images/background/1.jpg)"
-        >
-          <div class="auto-container">
-            <h2>
-              We provide innovative
-              <span class="theme_color">Product Solutions</span> for sustainable
-              progress. Our professional team works to increase productivity and
-              cost effectiveness on the market.
-            </h2>
-          </div>
-        </div>
-        <div class="auto-container">
-          <div class="lower-box">
-            <div class="clearfix">
-              <!--Image Column-->
-              <div class="image-column col-lg-6 col-md-12 col-sm-12">
-                <div class="image">
-                  <img src="images/resource/image-1.jpg" alt="" />
-                </div>
-              </div>
-              <!--Content Column-->
-              <div class="content-column col-lg-6 col-md-12 col-sm-12">
-                <div class="inner-column">
-                  <h3>Why You Choose Us</h3>
-                  <div class="text">
-                    <p>
-                      We have facility to produce advance work various
-                      industrial applications based on specially developed
-                      technol-ogy. We are also ready to developement by
-                      according to users changing needs. Infrastructure related
-                      installation projects.
-                    </p>
-                    <p>
-                      General repair & industrial and machinery. Our team
-                      up-to-date, sustainable custom manufacturing solutions.
-                    </p>
-                  </div>
-                  <div class="row clearfix">
-                    <div class="column col-lg-6 col-md-6 col-sm-12">
-                      <ul class="list-style-one">
-                        <li>
-                          <span class="icon flaticon-tool"></span>Greate
-                          Technology
-                        </li>
-                        <li>
-                          <span class="icon flaticon-mechanic"></span>Certified
-                          Engineers
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="column col-lg-6 col-md-6 col-sm-12">
-                      <ul class="list-style-one">
-                        <li>
-                          <span class="icon flaticon-clock-2"></span>Delivery
-                          Ontime
-                        </li>
-                        <li>
-                          <span class="icon flaticon-megaphone"></span>Best
-                          Branding
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--End Product Section-->
-
-      <!--Gallery Section-->
-      <section class="gallery-section">
-        <div class="auto-container">
-          <div class="sec-title centered">
-            <h2>Our Projects</h2>
-            <div class="separater"></div>
-          </div>
-        </div>
-        <!--Sortable Masonry-->
-        <div class="sortable-masonry">
-          <div class="auto-container">
-            <!--Filter-->
-            <div class="filters">
-              <ul class="filter-tabs filter-btns clearfix">
-                <li class="active filter" data-role="button" data-filter=".all">
-                  VIEW ALL
+        <nav class="navbar navbar-expand-lg" id="header">
+          <div class="container">
+            <a class="navbar-brand" href="#"
+              ><img src="assets/img/logowcolor.png" alt="logo"
+            /></a>
+            <div class="collapse navbar-collapse">
+              <ul class="navbar-nav menu ml-auto">
+                <li class="nav-item dropdown submenu active">
+                  <a href="#" class="nav-link"> Home </a>
                 </li>
-                <li
-                  class="filter"
-                  data-role="button"
-                  data-filter=".agriculture"
-                >
-                  AGRICULTURE
+                <li class="nav-item dropdown submenu">
+                  <a href="#" class="nav-link"> About Us </a>
                 </li>
-                <li class="filter" data-role="button" data-filter=".material">
-                  MATERIALS
+                <li class="nav-item dropdown submenu">
+                  <a href="#" class="nav-link"> Works </a>
                 </li>
-                <li class="filter" data-role="button" data-filter=".chemical">
-                  CHEMICAL
+                <li class="nav-item dropdown submenu">
+                  <a href="#" class="nav-link"> Services </a>
                 </li>
-                <li class="filter" data-role="button" data-filter=".mechanical">
-                  MECHANICAL
+                <li class="nav-item dropdown submenu">
+                  <a class="nav-link" href="#"> Blogs </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
                 </li>
               </ul>
             </div>
+            <ul class="list-unstyled navbar-nav navright">
+              <li>
+                <a href="#" class="menu_btn"><i class="fas fa-bars"></i></a>
+              </li>
+            </ul>
           </div>
-          <div class="items-container row clearfix">
-            <!--Default Portfolio Item-->
-            <div
-              class="
-                default-portfolio-item
-                big-column
-                masonry-item
-                all
-                material
-              "
-            >
-              <div class="inner-box">
-                <figure class="image-box">
-                  <img src="images/gallery/1.jpg" alt="" />
-                </figure>
-                <!--Overlay Box-->
-                <div class="overlay-box">
-                  <div class="overlay-inner">
-                    <div class="content">
-                      <a href="projects-detail.html" class="link"
-                        ><span class="fa fa-link"></span
-                      ></a>
-                      <a
-                        href="images/gallery/1.jpg"
-                        class="lightbox-image link"
-                        data-fancybox="images"
-                        data-caption=""
-                        title=""
-                        ><span class="icon fa fa-search"></span
-                      ></a>
-                      <h3>
-                        <a href="projects-detail.html">Pre Construction</a>
-                      </h3>
-                      <div class="tags">Agriculture, Chemical</div>
-                    </div>
-                  </div>
-                </div>
+        </nav>
+      </header>
+      <!-- slider area  -->
+      <section class="main_slider_area">
+        <div class="slider-progress">
+          <div class="slider_progress_bar"></div>
+        </div>
+        <div class="main_slider">
+          <div
+            class="slider_item"
+            style="background-image: url('./assets/img/slider_1.jpg')"
+          >
+            <div class="overlay_bg"></div>
+            <div class="container">
+              <div class="slider_text">
+                <h2 data-animation="fadeInUp" data-delay="0.1s">
+                  Excellence in High performance polymer chemistry and materials
+                </h2>
+                <p data-animation="fadeInUp" data-delay="0.3s">
+                  We are the team of professionals Disrupting polymer
+                  compounding technology to give innovative solutions
+                </p>
+                <a
+                  href="#"
+                  class="theme_btn theme_btn_three hover_style1"
+                  data-animation="fadeInUp"
+                  data-delay="0.5s"
+                  >Get to know more</a
+                >
               </div>
             </div>
-
-            <!--Default Portfolio Item-->
-            <div
-              class="
-                default-portfolio-item
-                small-column
-                masonry-item
-                all
-                mechanical
-                agriculture
-              "
-            >
-              <div class="inner-box">
-                <figure class="image-box">
-                  <img src="images/gallery/2.jpg" alt="" />
-                </figure>
-                <!--Overlay Box-->
-                <div class="overlay-box">
-                  <div class="overlay-inner">
-                    <div class="content">
-                      <a href="projects-detail.html" class="link"
-                        ><span class="fa fa-link"></span
-                      ></a>
-                      <a
-                        href="images/gallery/2.jpg"
-                        class="lightbox-image link"
-                        data-fancybox="images"
-                        data-caption=""
-                        title=""
-                        ><span class="icon fa fa-search"></span
-                      ></a>
-                      <h3>
-                        <a href="projects-detail.html">Pre Construction</a>
-                      </h3>
-                      <div class="tags">Agriculture, Chemical</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!--Default Portfolio Item-->
-            <div
-              class="
-                default-portfolio-item
-                small-column
-                masonry-item
-                all
-                agriculture
-                chemical
-                mechanical
-              "
-            >
-              <div class="inner-box">
-                <figure class="image-box">
-                  <img src="images/gallery/3.jpg" alt="" />
-                </figure>
-                <!--Overlay Box-->
-                <div class="overlay-box">
-                  <div class="overlay-inner">
-                    <div class="content">
-                      <a href="projects-detail.html" class="link"
-                        ><span class="fa fa-link"></span
-                      ></a>
-                      <a
-                        href="images/gallery/3.jpg"
-                        class="lightbox-image link"
-                        data-fancybox="images"
-                        data-caption=""
-                        title=""
-                        ><span class="icon fa fa-search"></span
-                      ></a>
-                      <h3>
-                        <a href="projects-detail.html">Pre Construction</a>
-                      </h3>
-                      <div class="tags">Agriculture, Chemical</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!--Default Portfolio Item-->
-            <div
-              class="
-                default-portfolio-item
-                small-column
-                masonry-item
-                all
-                mechanical
-              "
-            >
-              <div class="inner-box">
-                <figure class="image-box">
-                  <img src="images/gallery/4.jpg" alt="" />
-                </figure>
-                <!--Overlay Box-->
-                <div class="overlay-box">
-                  <div class="overlay-inner">
-                    <div class="content">
-                      <a href="projects-detail.html" class="link"
-                        ><span class="fa fa-link"></span
-                      ></a>
-                      <a
-                        href="images/gallery/4.jpg"
-                        class="lightbox-image link"
-                        data-fancybox="images"
-                        data-caption=""
-                        title=""
-                        ><span class="icon fa fa-search"></span
-                      ></a>
-                      <h3>
-                        <a href="projects-detail.html">Pre Construction</a>
-                      </h3>
-                      <div class="tags">Agriculture, Chemical</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!--Default Portfolio Item-->
-            <div
-              class="
-                default-portfolio-item
-                small-column
-                masonry-item
-                all
-                mechanical
-              "
-            >
-              <div class="inner-box">
-                <figure class="image-box">
-                  <img src="images/gallery/5.jpg" alt="" />
-                </figure>
-                <!--Overlay Box-->
-                <div class="overlay-box">
-                  <div class="overlay-inner">
-                    <div class="content">
-                      <a href="projects-detail.html" class="link"
-                        ><span class="fa fa-link"></span
-                      ></a>
-                      <a
-                        href="images/gallery/5.jpg"
-                        class="lightbox-image link"
-                        data-fancybox="images"
-                        data-caption=""
-                        title=""
-                        ><span class="icon fa fa-search"></span
-                      ></a>
-                      <h3>
-                        <a href="projects-detail.html">Pre Construction</a>
-                      </h3>
-                      <div class="tags">Agriculture, Chemical</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!--Default Portfolio Item-->
-            <div
-              class="
-                default-portfolio-item
-                big-column
-                masonry-item
-                all
-                agriculture
-                mechanical
-              "
-            >
-              <div class="inner-box">
-                <figure class="image-box">
-                  <img src="images/gallery/6.jpg" alt="" />
-                </figure>
-                <!--Overlay Box-->
-                <div class="overlay-box">
-                  <div class="overlay-inner">
-                    <div class="content">
-                      <a href="projects-detail.html" class="link"
-                        ><span class="fa fa-link"></span
-                      ></a>
-                      <a
-                        href="images/gallery/6.jpg"
-                        class="lightbox-image link"
-                        data-fancybox="images"
-                        data-caption=""
-                        title=""
-                        ><span class="icon fa fa-search"></span
-                      ></a>
-                      <h3>
-                        <a href="projects-detail.html">Pre Construction</a>
-                      </h3>
-                      <div class="tags">Agriculture, Chemical</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!--Default Portfolio Item-->
-            <div
-              class="
-                default-portfolio-item
-                small-column
-                masonry-item
-                all
-                chemical
-              "
-            >
-              <div class="inner-box">
-                <figure class="image-box">
-                  <img src="images/gallery/7.jpg" alt="" />
-                </figure>
-                <!--Overlay Box-->
-                <div class="overlay-box">
-                  <div class="overlay-inner">
-                    <div class="content">
-                      <a href="projects-detail.html" class="link"
-                        ><span class="fa fa-link"></span
-                      ></a>
-                      <a
-                        href="images/gallery/7.jpg"
-                        class="lightbox-image link"
-                        data-fancybox="images"
-                        data-caption=""
-                        title=""
-                        ><span class="icon fa fa-search"></span
-                      ></a>
-                      <h3>
-                        <a href="projects-detail.html">Pre Construction</a>
-                      </h3>
-                      <div class="tags">Agriculture, Chemical</div>
-                    </div>
-                  </div>
-                </div>
+          </div>
+          <div
+            class="slider_item"
+            style="background-image: url('./assets/img/slider_2.jpg')"
+          >
+            <div class="overlay_bg"></div>
+            <div class="container">
+              <div class="slider_text">
+                <h2 data-animation="fadeInUp" data-delay="0.1s">
+                  Value = Cost + Performance via Innovation
+                </h2>
+                <p data-animation="fadeInUp" data-delay="0.3s">
+                  We are the team of professionals Disrupting polymer
+                  compounding technology to give innovative solutions
+                </p>
+                <a
+                  href="#"
+                  class="theme_btn theme_btn_three hover_style1"
+                  data-animation="fadeInUp"
+                  data-delay="0.5s"
+                  >Get to know more</a
+                >
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <!--End Gallery Section-->
-
-      <!--Testimonial Section-->
-      <section class="testimonial-section">
-        <div class="auto-container">
-          <!--Sec Title-->
-          <div class="sec-title centered">
-            <h2>Testimonial</h2>
-            <div class="separater"></div>
-            <div class="text">Some awesome text from our clients</div>
-          </div>
-          <div class="two-item-carousel owl-carousel owl-theme">
-            <!--Testimonial Block-->
-            <div class="testimonial-block">
-              <div class="inner-box">
-                <div class="quote-icon">
-                  <span class="icon fa fa-quote-left"></span>
-                </div>
-                <div class="text">
-                  Doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-                  illo inventore veritatis et quasi architecto beatae vitae
-                  dicta sunt explicabo. Nemo enim ipsam voluptatem quia.
-                </div>
-                <div class="author-box">
-                  <div class="inner">
-                    <div class="image">
-                      <img src="images/resource/author-1.jpg" alt="" />
-                    </div>
-                    <h3>Marcus Finn</h3>
-                    <div class="designation">CEO, Axura</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!--Testimonial Block-->
-            <div class="testimonial-block">
-              <div class="inner-box">
-                <div class="quote-icon">
-                  <span class="icon fa fa-quote-left"></span>
-                </div>
-                <div class="text">
-                  Doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-                  illo inventore veritatis et quasi architecto beatae vitae
-                  dicta sunt explicabo. Nemo enim ipsam voluptatem quia.
-                </div>
-                <div class="author-box">
-                  <div class="inner">
-                    <div class="image">
-                      <img src="images/resource/author-2.jpg" alt="" />
-                    </div>
-                    <h3>Marcus Finn</h3>
-                    <div class="designation">CEO, Axura</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!--Testimonial Block-->
-            <div class="testimonial-block">
-              <div class="inner-box">
-                <div class="quote-icon">
-                  <span class="icon fa fa-quote-left"></span>
-                </div>
-                <div class="text">
-                  Doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-                  illo inventore veritatis et quasi architecto beatae vitae
-                  dicta sunt explicabo. Nemo enim ipsam voluptatem quia.
-                </div>
-                <div class="author-box">
-                  <div class="inner">
-                    <div class="image">
-                      <img src="images/resource/author-1.jpg" alt="" />
-                    </div>
-                    <h3>Marcus Finn</h3>
-                    <div class="designation">CEO, Axura</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!--Testimonial Block-->
-            <div class="testimonial-block">
-              <div class="inner-box">
-                <div class="quote-icon">
-                  <span class="icon fa fa-quote-left"></span>
-                </div>
-                <div class="text">
-                  Doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-                  illo inventore veritatis et quasi architecto beatae vitae
-                  dicta sunt explicabo. Nemo enim ipsam voluptatem quia.
-                </div>
-                <div class="author-box">
-                  <div class="inner">
-                    <div class="image">
-                      <img src="images/resource/author-2.jpg" alt="" />
-                    </div>
-                    <h3>Marcus Finn</h3>
-                    <div class="designation">CEO, Axura</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!--Testimonial Block-->
-            <div class="testimonial-block">
-              <div class="inner-box">
-                <div class="quote-icon">
-                  <span class="icon fa fa-quote-left"></span>
-                </div>
-                <div class="text">
-                  Doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-                  illo inventore veritatis et quasi architecto beatae vitae
-                  dicta sunt explicabo. Nemo enim ipsam voluptatem quia.
-                </div>
-                <div class="author-box">
-                  <div class="inner">
-                    <div class="image">
-                      <img src="images/resource/author-1.jpg" alt="" />
-                    </div>
-                    <h3>Marcus Finn</h3>
-                    <div class="designation">CEO, Axura</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!--Testimonial Block-->
-            <div class="testimonial-block">
-              <div class="inner-box">
-                <div class="quote-icon">
-                  <span class="icon fa fa-quote-left"></span>
-                </div>
-                <div class="text">
-                  Doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-                  illo inventore veritatis et quasi architecto beatae vitae
-                  dicta sunt explicabo. Nemo enim ipsam voluptatem quia.
-                </div>
-                <div class="author-box">
-                  <div class="inner">
-                    <div class="image">
-                      <img src="images/resource/author-2.jpg" alt="" />
-                    </div>
-                    <h3>Marcus Finn</h3>
-                    <div class="designation">CEO, Axura</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="slider_nav">
+          <i class="fas fa-angle-left slider_left_arrow"></i>
+          <i class="fas fa-angle-right slider_right_arrow"></i>
         </div>
       </section>
-      <!--End Testimonial Section-->
-
-      <!--News Section-->
-      <section class="news-section">
-        <div class="auto-container">
-          <!--Sec Title-->
-          <div class="sec-title centered">
-            <h2>Our Latest News</h2>
-            <div class="separater"></div>
-          </div>
-          <div class="row clearfix">
-            <!--Column-->
-            <div class="column col-lg-6 col-md-12 col-sm-12">
-              <div class="news-block">
-                <div class="inner-box">
-                  <div class="image">
-                    <a href="blog-detail.html"
-                      ><img src="images/resource/news-1.jpg" alt=""
-                    /></a>
-                  </div>
-                  <div class="lower-content">
-                    <h3>
-                      <a href="blog-detail.html"
-                        >What Planning Process Needs?</a
-                      >
-                    </h3>
-                    <div class="text">
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking
-                      at its layout.
-                    </div>
-                    <ul class="post-meta">
-                      <li>
-                        <span class="icon fa fa-comments-o"></span>Comments
-                      </li>
-                      <li><span class="icon fa fa-user"></span>Hasib Sharif</li>
-                      <li>
-                        <span class="icon fa fa-calendar"></span>21 feb, 2018
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!--Column-->
-            <div class="column col-lg-6 col-md-12 col-sm-12">
-              <div class="news-block-two">
-                <div class="inner-box">
-                  <div class="row clearfix">
-                    <div class="image-column col-lg-5 col-md-6 col-sm-12">
-                      <div class="image">
-                        <a href="blog-detail.html"
-                          ><img src="images/resource/news-2.jpg" alt=""
-                        /></a>
-                      </div>
-                    </div>
-                    <div class="content-column col-lg-7 col-md-6 col-sm-12">
-                      <div class="inner-column">
-                        <h3>
-                          <a href="blog-detail.html"
-                            >Construction Of the Building’s Roof</a
-                          >
-                        </h3>
-                        <div class="text">
-                          Which don't look even slightly believable. If you are
-                          going to use a passage of you need to be sure there
-                          isn't anything.
-                        </div>
-                        <ul class="post-meta">
-                          <li>
-                            <span class="icon fa fa-comments-o"></span>Comments
-                          </li>
-                          <li>
-                            <span class="icon fa fa-user"></span>Hasib Sharif
-                          </li>
-                          <li>
-                            <span class="icon fa fa-calendar"></span>21 feb,
-                            2018
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="news-block-two">
-                <div class="inner-box">
-                  <div class="row clearfix">
-                    <div class="image-column col-lg-5 col-md-6 col-sm-12">
-                      <div class="image">
-                        <a href="blog-detail.html"
-                          ><img src="images/resource/news-3.jpg" alt=""
-                        /></a>
-                      </div>
-                    </div>
-                    <div class="content-column col-lg-7 col-md-6 col-sm-12">
-                      <div class="inner-column">
-                        <h3>
-                          <a href="blog-detail.html"
-                            >Don’t worry about creativity and inspriation.</a
-                          >
-                        </h3>
-                        <div class="text">
-                          Which don't look even slightly believable. If you are
-                          going to use a passage of you need to be sure there
-                          isn't anything.
-                        </div>
-                        <ul class="post-meta">
-                          <li>
-                            <span class="icon fa fa-comments-o"></span>Comments
-                          </li>
-                          <li>
-                            <span class="icon fa fa-user"></span>Hasib Sharif
-                          </li>
-                          <li>
-                            <span class="icon fa fa-calendar"></span>21 feb,
-                            2018
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+      <!-- slider area  -->
+      <!--================= mobile menu  =================-->
+      <div class="mobile_menu d-flex flex-wrap align-items-end">
+        <div class="close_btn">X</div>
+        <ul class="list-unstyled mb_menu wd_scroll">
+          <li class="menu-item-has-children active">
+            <a href="#">Home</a>
+          </li>
+          <li class="menu-item-has-children">
+            <a href="#"> About Us</a>
+          </li>
+          <li class="menu-item-has-children">
+            <a href="#"> Works </a>
+          </li>
+          <li class="menu-item-has-children">
+            <a href="#"> Services </a>
+          </li>
+          <li class="menu-item-has-children">
+            <a href="#"> Blogs </a>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <ul class="list-unstyled social_links">
+          <li>
+            <a href="#" title=""><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#" title=""><i class="fab fa-linkedin-in"></i></a>
+          </li>
+        </ul>
+        <div class="copyright">
+          <p>
+            Copyright © 2021 <a href="#" title="">Invent Technologies</a> All
+            Rights Reserved.
+          </p>
         </div>
-      </section>
-      <!--End News Section-->
-
-      <!--Main Footer-->
-      <footer
-        class="main-footer"
-        style="background-image: url(images/background/5.jpg)"
+      </div>
+      <div class="body_capture"></div>
+      <!--================= mobile menu =================-->
+      <!-- service area  -->
+      <section
+        class="
+          cons_offer_service_area
+          cons_offer_service_area_two
+          cons_offer_service_area_four
+        "
       >
-        <div class="auto-container">
-          <!--Widgets Section-->
-          <div class="widgets-section">
-            <div class="row clearfix">
-              <!--big column-->
-              <div class="big-column col-lg-6 col-md-12 col-sm-12">
-                <div class="row clearfix">
-                  <!--Footer Column-->
-                  <div class="footer-column col-lg-7 col-md-6 col-sm-12">
-                    <div class="footer-widget logo-widget">
-                      <div class="logo">
-                        <a href="index.html"
-                          ><img src="images/footer-logo.png" alt=""
-                        /></a>
-                      </div>
-                      <div class="text">
-                        Over 24 years experience and knowledge international
-                        standards, technologicaly changes our industrial
-                        systems, we are dedicated to provides the best solutions
-                        to our valued customers there are many variations
-                        solutions.
-                      </div>
-                    </div>
-                  </div>
-
-                  <!--Footer Column-->
-                  <div class="footer-column col-lg-5 col-md-6 col-sm-12">
-                    <div class="footer-widget links-widget">
-                      <div class="footer-title">
-                        <h2>Services</h2>
-                      </div>
-                      <ul class="footer-lists">
-                        <li><a href="#">Agricultural Processing</a></li>
-                        <li><a href="#">Chemical Research</a></li>
-                        <li><a href="#">Material Engineering</a></li>
-                        <li><a href="#">Mechanical Engineering</a></li>
-                        <li><a href="#">Petroleum and Gas</a></li>
-                        <li><a href="#">Power and Energy</a></li>
-                      </ul>
-                    </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-sm-12">
+              <div class="offer_service_item pr_slider_item">
+                <div class="hover-content">
+                  <i class="fas fa-fire fa-5x"></i>
+                  <a href="#">
+                    <h4>Polymer Compounding</h4>
+                  </a>
+                  <a href="#" class="text_btn" data-text="See service"
+                    >See service
+                    <i class="fas fa-angle-double-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+              <div class="offer_service_item pr_slider_item">
+                <div class="hover-content">
+                  <i class="fas fa-recycle fa-5x"></i>
+                  <a href="#">
+                    <h4>Technical upcycling</h4>
+                  </a>
+                  <a href="#" class="text_btn" data-text="See service"
+                    >See service
+                    <i class="fas fa-angle-double-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- service menu  -->
+      <!-- cons_about_area  -->
+      <section class="cons_about_area">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-8">
+              <div class="cons_about_img">
+                <img
+                  class="one"
+                  src="assets/img/home-one/cons_about1.jpg"
+                  alt=""
+                />
+                <img
+                  class="two"
+                  src="assets/img/home-one/cons_about2.png"
+                  alt=""
+                />
+                <img
+                  class="dot"
+                  src="assets/img/home_one_dark/dots.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="cons_about_content">
+                <h6 class="title_top">a little about us</h6>
+                <h2 class="title_head">Polymer chemistry experts</h2>
+                <p>
+                  Technology driven Polymer Compounding and Plastics Recycling
+                  company providing solutions to various Plastics parts/products
+                  manufacturing Industries, including OEM & Tiers in different
+                  Industry sectors, like Automotive, E-E, Industrial, Building
+                  construction, Energy and Infrastructure. A fully IntegratedR&D
+                  and Manufacturing facility located in the Automotive &
+                  Industrial hub just outside Chennai, about 45 KM from the
+                  Airport.
+                </p>
+                <a href="#" class="text_btn" data-text="Know us More"
+                  >Know us More</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- cons_about_area  -->
+      <!-- cons_features_area  -->
+      <section class="cons_features_area">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div class="cons_about_content">
+                <h6 class="title_top">Why choose us ?</h6>
+                <h2 class="title_head">
+                  Your partner to Innovation and Solutions
+                </h2>
+                <ul class="list-unstyled">
+                  <li>
+                    Innovative, agile and flexible company with strong emphasis
+                    on providing solutions to clients
+                  </li>
+                  <li>Cost competitive without compromise in quality</li>
+                  <li>Client first policy</li>
+                  <li>Highly committed and energetic team</li>
+                  <li>Great emphasis on sustainability</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="features_img text-center">
+                <img
+                  class="dot_middle"
+                  src="assets/img/home_one_dark/feature_dot_dark.png"
+                  alt=""
+                />
+                <img src="assets/img/home-one/feature_man.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- cons_features_area  -->
+      <!-- cons_action_area  -->
+      <section class="cons_action_area">
+        <div class="container">
+          <div class="cons_action_info">
+            <div class="text">
+              Quality and reliability services to provide a solution to your
+              project, we do it all and fast
+            </div>
+            <div class="a_btn text-right">
+              <a href="#" class="theme_btn theme_btn_white hover_style1"
+                >Download PDF</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- cons_action_area  -->
+      <!-- cons_projects_area  -->
+      <section class="cons_projects_area">
+        <div class="container">
+          <div class="section_title_one">
+            <h6 class="title_top">projects</h6>
+            <h2 class="title_head">Our projects</h2>
+          </div>
+          <div class="cons_project_info">
+            <div class="row cons_project_slider">
+              <div class="col-lg-12">
+                <div class="pr_slider_item">
+                  <img src="assets/img/home-one/projects_img1.jpg" alt="" />
+                  <div class="hover-content">
+                    <h6>architecture</h6>
+                    <h4>
+                      Apartment building in the<br />
+                      residential district
+                    </h4>
+                    <a href="#" class="text_btn" data-text="See project"
+                      >See project <i class="fas fa-arrow-right"></i
+                    ></a>
                   </div>
                 </div>
               </div>
-
-              <!--big column-->
-              <div class="big-column col-lg-6 col-md-12 col-sm-12">
-                <div class="row clearfix">
-                  <!--Footer Column-->
-                  <div class="footer-column col-lg-6 col-md-6 col-sm-12">
-                    <div class="footer-widget news-widget">
-                      <div class="footer-title">
-                        <h2>Latest Posts</h2>
-                      </div>
-                      <div class="widget-content">
-                        <article class="post">
-                          <figure class="post-thumb">
-                            <a href="news-detail.html"
-                              ><img
-                                src="images/resource/news-thumb-1.jpg"
-                                alt=""
-                            /></a>
-                          </figure>
-                          <div class="text">
-                            <a href="news-detail.html">Modernizing the Grid</a>
-                          </div>
-                          <ul class="post-info">
-                            <li>
-                              <span class="icon fa fa-calendar"></span>Oct 23,
-                              2017
-                            </li>
-                            <li>
-                              <span class="icon fa fa-comment-o"></span>25
-                            </li>
-                          </ul>
-                        </article>
-
-                        <article class="post">
-                          <figure class="post-thumb">
-                            <a href="news-detail.html"
-                              ><img
-                                src="images/resource/news-thumb-2.jpg"
-                                alt=""
-                            /></a>
-                          </figure>
-                          <div class="text">
-                            <a href="news-detail.html"
-                              >Successful Engineering</a
-                            >
-                          </div>
-                          <ul class="post-info">
-                            <li>
-                              <span class="icon fa fa-calendar"></span>Oct 23,
-                              2017
-                            </li>
-                            <li>
-                              <span class="icon fa fa-comment-o"></span>16
-                            </li>
-                          </ul>
-                        </article>
-                      </div>
-                    </div>
+              <div class="col-lg-12">
+                <div class="pr_slider_item">
+                  <img src="assets/img/home-one/projects_img2.jpg" alt="" />
+                  <div class="hover-content">
+                    <h6>architecture</h6>
+                    <h4>
+                      Apartment building in the<br />
+                      residential district
+                    </h4>
+                    <a href="#" class="text_btn" data-text="See project"
+                      >See project <i class="fas fa-arrow-right"></i>
+                    </a>
                   </div>
-
-                  <!--Footer Column-->
-                  <div class="footer-column col-lg-6 col-md-6 col-sm-12">
-                    <div class="footer-widget subscribe-widget">
-                      <div class="footer-title">
-                        <h2>Subscribe Us</h2>
-                      </div>
-                      <div class="widget-content">
-                        <div class="text">
-                          Sign up today for tips and latest news and exclusive
-                          special offers.
-                        </div>
-                        <div class="subscribe-form">
-                          <form method="post" action="contact.html">
-                            <div class="form-group">
-                              <input
-                                type="email"
-                                name="email"
-                                value=""
-                                placeholder="Email Address"
-                                required
-                              />
-                              <button type="submit" class="theme-btn">
-                                <span class="fa fa-send"></span>
-                              </button>
-                            </div>
-                          </form>
-                        </div>
-                        <ul class="social-icon-two">
-                          <li class="follow">Follow us :</li>
-                          <li>
-                            <a href="#"><span class="fa fa-facebook"></span></a>
-                          </li>
-                          <li>
-                            <a href="#"><span class="fa fa-twitter"></span></a>
-                          </li>
-                          <li>
-                            <a href="#"
-                              ><span class="fa fa-google-plus"></span
-                            ></a>
-                          </li>
-                          <li>
-                            <a href="#"
-                              ><span class="fa fa-pinterest-p"></span
-                            ></a>
-                          </li>
-                          <li>
-                            <a href="#"><span class="fa fa-dribbble"></span></a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="custom_arrow">
+              <div class="prev custom_prev">
+                <i class="fas fa-caret-left"></i>
+              </div>
+              <div class="next custom_next">
+                <i class="fas fa-caret-right"></i>
+              </div>
+            </div>
+          </div>
+          <div class="text-right">
+            <a href="#" class="theme_btn_two hover_style1">See All</a>
+          </div>
+        </div>
+      </section>
+      <!-- cons_projects_area  -->
+      <!-- cons_testimonial_area  -->
+      <section class="cons_testimonial_area">
+        <div class="cons_custom_left"></div>
+        <div class="cons_custom_right">
+          <div class="cons_testimonial_slider" id="testimonial">
+            <div class="item">
+              <div class="testimonial_content">
+                <div class="quote_icon">
+                  <i class="fas fa-quote-left"></i>
+                </div>
+                <h3 class="testimonail_text">
+                  They built
+                  <strong>the location of our florist business</strong> we are
+                  excited to open.
+                </h3>
+                <div class="testimonail_author">
+                  <div class="img">
+                    <img src="assets/img/home-one/author1.png" alt="" />
+                  </div>
+                  Brianna Wills
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimonial_content">
+                <div class="quote_icon">
+                  <i class="fas fa-quote-left"></i>
+                </div>
+                <h3 class="testimonail_text">
+                  They built
+                  <strong>the location of our florist business</strong> we are
+                  excited to open.
+                </h3>
+                <div class="testimonail_author">
+                  <div class="img">
+                    <img src="assets/img/home-one/author1.png" alt="" />
+                  </div>
+                  Brianna Wills
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimonial_content">
+                <div class="quote_icon">
+                  <i class="fas fa-quote-left"></i>
+                </div>
+                <h3 class="testimonail_text">
+                  They built
+                  <strong>the location of our florist business</strong> we are
+                  excited to open.
+                </h3>
+                <div class="testimonail_author">
+                  <div class="img">
+                    <img src="assets/img/home-one/author1.png" alt="" />
+                  </div>
+                  Brianna Wills
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- cons_testimonial_area  -->
+      <!-- cons_team_area  -->
+      <section class="cons_team_area">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-5">
+              <div class="cons_about_content">
+                <h6 class="title_top">our Team</h6>
+                <h2 class="title_head">Meet our team of professionals</h2>
+                <p>
+                  More and more professionals join us to work as a team and
+                  complement our skills in a big way.
+                </p>
+                <a href="#" class="text_btn" data-text="Meet the team"
+                  >Meet the team</a
+                >
+              </div>
+            </div>
+            <div class="col-lg-8 col-md-7">
+              <div class="team_img_info">
+                <img
+                  class="dot_middle"
+                  src="assets/img/home-one/feature_dot.png"
+                  alt=""
+                />
+                <div class="row">
+                  <div class="col-6 cons_team_col">
+                    <a
+                      href="#"
+                      class="cons_team_item"
+                      data-parallax='{"x": 0, "y": 50}'
+                    >
+                      <img src="assets/img/home-one/team1.jpg" alt="" />
+                    </a>
+                  </div>
+                  <div class="col-6 cons_team_col">
+                    <a
+                      href="#"
+                      class="cons_team_item"
+                      data-parallax='{"x": 0, "y": -50}'
+                    >
+                      <img src="assets/img/home-one/team2.jpg" alt="" />
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="footer-bottom">
-          <div class="auto-container">
-            <div class="copyright">
-              &copy; Copyright 2020. All Rights Reserved. Designed by
-              Expert_Themes
+      </section>
+      <!-- cons_team_area  -->
+      <!-- cons_subscribe_area  -->
+      <section class="cons_subscribe_area">
+        <div
+          class="cons_subscribe_info parallaxie"
+          style="
+            background: url(assets/img/home-one/subscribe_bg.jpg) no-repeat
+              scroll center 0 / cover;
+          "
+        >
+          <div class="overlay"></div>
+          <div class="cons_subscribe_content">
+            <div class="section_title_one text-center">
+              <h2 class="title_head">Get a Quote !</h2>
+              <p>
+                Do fill in your details if you would like our services and want
+                our employee to contact you soon !
+              </p>
+            </div>
+            <form action="#" class="cons_subscribe_form">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter your Name"
+              />
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Enter your email"
+              />
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter your contact number"
+              />
+              <button type="submit" class="theme_btn hover_style1">
+                Get a quote
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- cons_subscribe_area  -->
+      <!-- cons footer_area  -->
+      <footer class="footer_area">
+        <div class="footer_top">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-sm-6">
+                <div class="f_widget f_about_widget">
+                  <a href="#" class="f_logo">
+                    <img src="assets/img/logowcolor.png" alt="" />
+                  </a>
+                  <p>
+                    At Inventa we care about each client and each person who
+                    works with us and makes great projects possible
+                  </p>
+                  <ul class="list-unstyled f_social">
+                    <li>
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 offset-md-1 col-sm-5">
+                <div class="f_widget f_link_widget">
+                  <h3 class="f_title">Who we are</h3>
+                  <ul class="list-unstyled f_link">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Team</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Services</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="f_widget f_contact_info_widget">
+                  <h3 class="f_title">Contact Us</h3>
+                  <ul class="list-unstyled contact_info_link">
+                    <li>
+                      Phone: <a href="tel:051958237851">+051 - 958 237 851</a>
+                    </li>
+                    <li>
+                      Email:
+                      <a href="mailto:info@inventatechnologies.com"
+                        >info@inventatechnologies.com</a
+                      >
+                    </li>
+                    <li>
+                      Address:
+                      <span
+                        >1046/2, Hussain nagaram, Ulundai post, Tiruvallur taluk
+                        and district, 602105</span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer_bottom border_top">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-sm-7">
+                <p class="copy_text">
+                  © 2021 Inventa Technologies. All rights reserved.
+                </p>
+              </div>
+              <div class="col-sm-5 text-right">
+                <a href="#" class="go_top"
+                  >go back up <i class="fas fa-angle-up"></i
+                ></a>
+              </div>
             </div>
           </div>
         </div>
       </footer>
-      <!--End Main Footer-->
-    </div>
-    <!--End pagewrapper-->
-
-    <!--Scroll to top-->
-    <div class="scroll-to-top scroll-to-target" data-target="html">
-      <span class="icon fa fa-angle-double-up"></span>
+      <!-- cons_footer area  -->
     </div>
 
-    <!-- Color Palate / Color Switcher -->
-    <div class="color-palate">
-      <div class="color-trigger">
-        <i class="fa fa-gear"></i>
-      </div>
-      <div class="color-palate-head">
-        <h6>Choose Your Color</h6>
-      </div>
-      <div class="various-color clearfix">
-        <div class="colors-list">
-          <span
-            class="palate default-color active"
-            data-theme-file="css/color-themes/default-theme.css"
-          ></span>
-          <span
-            class="palate teal-color"
-            data-theme-file="css/color-themes/teal-theme.css"
-          ></span>
-          <span
-            class="palate green-color"
-            data-theme-file="css/color-themes/green-theme.css"
-          ></span>
-          <span
-            class="palate aqua-color"
-            data-theme-file="css/color-themes/aqua-theme.css"
-          ></span>
-          <span
-            class="palate pink-color"
-            data-theme-file="css/color-themes/pink-theme.css"
-          ></span>
-          <span
-            class="palate orange-color"
-            data-theme-file="css/color-themes/orange-theme.css"
-          ></span>
-          <span
-            class="palate lime-color"
-            data-theme-file="css/color-themes/lime-theme.css"
-          ></span>
-          <span
-            class="palate red-color"
-            data-theme-file="css/color-themes/red-theme.css"
-          ></span>
-        </div>
-      </div>
-
-      <ul class="rtl-version option-box">
-        <li class="rtl">RTL Version</li>
-        <li>LTR Version</li>
-      </ul>
-
-      <div class="palate-foo">
-        <span>You can easily change and switch the colors.</span>
-      </div>
-    </div>
-    <!-- /.End Of Color Palate -->
-
-    <script src="js/jquery.js"></script>
-    <!--Revolution Slider-->
-    <script src="plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
-    <script src="plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.migration.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script src="plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
-    <script src="js/main-slider-script.js"></script>
-
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="js/jquery.fancybox.js"></script>
-    <script src="js/owl.js"></script>
-    <script src="js/wow.js"></script>
-    <script src="js/appear.js"></script>
-    <script src="js/isotope.js"></script>
-    <script src="js/jquery-ui.js"></script>
-    <script src="js/script.js"></script>
-    <!--Google Map APi Key-->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIJ_QKHN-bi6_1C9f5eYE3pZs1zhQIo5o"></script>
-    <script src="js/map-script.js"></script>
-    <!--End Google Map APi-->
-    <!--Color Switcher-->
-    <script src="js/color-settings.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="assets/vendors/bootstrap/js/popper.min.js"></script>
+    <script src="assets/vendors/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/vendors/slick/slick.min.js"></script>
+    <script src="assets/js/parallaxie.js"></script>
+    <script src="assets/vendors/mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="assets/vendors/pace/pace.min.js"></script>
+    <script src="assets/vendors/wow/wow.min.js"></script>
+    <script src="assets/js/jquery.parallax-scroll.js"></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
