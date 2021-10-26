@@ -66,7 +66,7 @@ h6 {
     font-size: 14px;
     line-height: 19px;
     letter-spacing: 2.1px;
-    color: #f27507;
+    color:#1f8020;
     font-weight: 600;
     margin-bottom: 22px
 }
@@ -113,15 +113,18 @@ h6 {
     left: 0;
     top: 0;
     width: 0;
-    color: #f27507;
+    color: #004c33;
     overflow: hidden;
     z-index: 0;
     transition: all 1s cubic-bezier(.165, .84, .44, 1);
     white-space: nowrap
 }
 
+.founder-img {
+    border-radius:25px;
+}
 .text_btn:hover {
-    color: #f27507;
+    color: #004c33;
     transition: color 1s linear
 }
 
@@ -143,10 +146,10 @@ h6 {
     background: #f2e1c2;
     font-size: 14px;
     font-weight: 600;
-    color: #f27507;
+    color: #004c33;
     padding: 8px 61px;
     border-radius: 3px;
-    color: #f27507
+    color: #004c33
 }
 
 .theme_btn_two:hover {
@@ -179,7 +182,7 @@ h6 {
     transition-timing-function: cubic-bezier(.075, .82, .165, 1);
     transition-property: transform;
     z-index: -1;
-    background: #f27507
+    background: #004c33
 }
 
 .hover_style1 i {
@@ -196,7 +199,7 @@ h6 {
 }
 
 .theme_btn_three {
-    background: #f27507;
+    background: #004c33;
     padding: 10px 56px
 }
 
@@ -209,11 +212,11 @@ h6 {
 }
 
 .theme_btn_white:hover {
-    color: #f27507
+    color: #004c33
 }
 
 .more_btn {
-    color: #f27507;
+    color: #004c33;
     font: 600 14px Montserrat, sans-serif
 }
 
@@ -223,7 +226,7 @@ h6 {
 }
 
 .more_btn:hover {
-    color: #f27507
+    color: #004c33
 }
 
 .more_btn:hover i {
@@ -241,7 +244,7 @@ h6 {
 }
 
 .text_btn_two:hover {
-    color: #f27507
+    color: #004c33
 }
 
 .pace {
@@ -396,7 +399,7 @@ header+section {
 }
 
 .header_top .menu_contact_info li a:hover {
-    color: #f27507
+    color: #004c33
 }
 
 .header_top .menu_contact_info li:last-child {
@@ -428,7 +431,7 @@ header+section {
 }
 
 .heder_contact_info li a:hover {
-    color: #f27507
+    color: #004c33
 }
 
 .heder_contact_info li:last-child {
@@ -447,7 +450,7 @@ header+section {
 }
 
 .menu>.nav-item>.nav-link {
-    font-size: 13px;
+    font-size: 17px;
     font-family: Montserrat, sans-serif;
     color: #7e8288;
     font-weight: 700;
@@ -702,7 +705,7 @@ header+section {
 }
 
 .navright li.shoping-cart .dropdown-menu .cart-single-item .cart-remove a:hover {
-    color: #f27507
+    color: #004c33
 }
 
 .navright li.shoping-cart .dropdown-menu .cart-single-item:hover .cart-img {
@@ -710,7 +713,7 @@ header+section {
 }
 
 .navright li.shoping-cart .dropdown-menu .cart-single-item:hover .cart-title a {
-    color: #f27507
+    color: #004c33
 }
 
 .navright li.shoping-cart .dropdown-menu .cart_f {
@@ -766,7 +769,7 @@ header+section {
     opacity: 0;
     visibility: hidden;
     transition: all .2s linear;
-    border-left: 3px solid #f27507
+    border-left: 3px solid #004c33
 }
 
 .navright li.search .search-form .form-control {
@@ -800,7 +803,7 @@ header+section {
     background: #fff;
     margin-left: -1px;
     padding-right: 20px;
-    color: #f27507
+    color: #004c33
 }
 
 .navright li.search.open .search-form {
@@ -874,7 +877,7 @@ header+section {
 
 .header_tranparent .header_top .f_social li a:hover,
 .header_tranparent .header_top .menu_contact_info li a:hover {
-    color: #f27507
+    color: #004c33
 }
 
 .header_tranparent .navbar {
@@ -892,17 +895,17 @@ header+section {
 
 .white_menu .menu>.nav-item.active>.nav-link,
 .white_menu .menu>.nav-item:hover>.nav-link {
-    color: #f27507
+    color: #004c33
 }
 
 .white_menu .menu>.nav-item .dropdown-menu .nav-item.active .nav-link,
 .white_menu .menu>.nav-item .dropdown-menu .nav-item:hover .nav-link {
-    color: #f27507
+    color: #004c33
 }
 
 .white_menu .menu>.nav-item .dropdown-menu.dropdown_mega_menu .mega_menu_col ul li.active a,
 .white_menu .menu>.nav-item .dropdown-menu.dropdown_mega_menu .mega_menu_col ul li:hover a {
-    color: #f27507
+    color: #004c33
 }
 
 .white_menu .navright li a {
@@ -910,7 +913,7 @@ header+section {
 }
 
 .white_menu .navright li:hover a {
-    color: #f27507
+    color: #004c33
 }
 
 .white_menu.hover_color .menu>.nav-item.active>.nav-link,
@@ -933,12 +936,12 @@ header+section {
 
 .black_menu .menu>.nav-item.active>.nav-link,
 .black_menu .menu>.nav-item:hover>.nav-link {
-    color: #f27507
+    color: #004c33
 }
 
 .black_menu .menu>.nav-item .dropdown-menu .nav-item.active .nav-link,
 .black_menu .menu>.nav-item .dropdown-menu .nav-item:hover .nav-link {
-    color: #f27507
+    color: #004c33
 }
 
 .black_menu .navright li a {
@@ -946,7 +949,7 @@ header+section {
 }
 
 .black_menu .navright li:hover a {
-    color: #f27507
+    color: #004c33
 }
 
 .header_top_gap_two {
@@ -966,7 +969,7 @@ header+section {
 }
 
 .phone:hover {
-    color: #f27507
+    color: #004c33
 }
 
 .menu_style_three .navright li a {
@@ -974,7 +977,7 @@ header+section {
 }
 
 .menu_style_three .navright li:hover a {
-    color: #f27507
+    color: #004c33
 }
 
 .header_top_gap_three+div,
@@ -1006,12 +1009,12 @@ header+section {
 
 .dark_menu .navbar .menu>.nav-item .dropdown-menu .nav-item.active .nav-link,
 .dark_menu .navbar .menu>.nav-item .dropdown-menu .nav-item:hover .nav-link {
-    color: #f27507
+    color: #004c33
 }
 
 .dark_menu .navbar .menu>.nav-item .dropdown-menu.dropdown_mega_menu .mega_menu_col ul li.active a,
 .dark_menu .navbar .menu>.nav-item .dropdown-menu.dropdown_mega_menu .mega_menu_col ul li:hover a {
-    color: #f27507
+    color: #004c33
 }
 
 .dark_menu .navbar .navright li a {
@@ -1035,6 +1038,11 @@ header+section {
 .header_big_logo .navbar-brand {
     margin-right: 0
 }
+
+/* .brand-logo{
+    height: 100px;
+    width:100px;
+} */
 
 .header_big_logo .navbar-brand+.navbar-brand {
     display: none
@@ -1144,7 +1152,7 @@ header+section {
 }
 
 .mobile_menu .close_btn:hover {
-    color: #f27507
+    color: #004c33
 }
 
 .mb_menu {
@@ -1205,7 +1213,7 @@ header+section {
 
 .mb_menu li.active>a,
 .mb_menu li:hover>a {
-    color: #f27507
+    color: #004c33
 }
 
 .mb_menu li.menu-item-has-children>a:after {
@@ -1246,7 +1254,7 @@ header+section {
 }
 
 .social_links li a:hover {
-    color: #f27507
+    color: #004c33
 }
 
 .copyright p {
@@ -1257,7 +1265,7 @@ header+section {
 }
 
 .copyright p a {
-    color: #f27507
+    color: #004c33
 }
 
 .sticky_logo img {
@@ -1274,12 +1282,12 @@ header+section {
     top: -70px;
     left: 0;
     right: 0;
-    background: 0 0;
+    background:#1e2228;
     transform: translateY(70px);
     transition: transform .5s ease, background .5s ease;
     z-index: 100;
     margin-top: 0;
-    background: #fff;
+    background: ;
     box-shadow: 0 5px 40px 0 rgba(30, 34, 40, .05)
 }
 
@@ -1314,12 +1322,12 @@ header+section {
 
 .navbar_fixed .white_menu .menu>.nav-item.active>.nav-link,
 .navbar_fixed .white_menu .menu>.nav-item:hover>.nav-link {
-    color: #f27507
+    color: #004c33
 }
 
 .navbar_fixed .white_menu .menu>.nav-item .dropdown-menu .nav-item.active .nav-link,
 .navbar_fixed .white_menu .menu>.nav-item .dropdown-menu .nav-item:hover .nav-link {
-    color: #f27507
+    color: #004c33
 }
 
 .navbar_fixed .white_menu .navright li a {
@@ -1327,11 +1335,11 @@ header+section {
 }
 
 .navbar_fixed .white_menu .navright li:hover a {
-    color: #f27507
+    color: #004c33
 }
 
 .navbar_fixed.dark_menu #header {
-    background: #1e2228
+    background: ##1e2228
 }
 
 .navbar_fixed.header_big_logo #header .navbar-brand+.navbar-brand {
@@ -1353,7 +1361,7 @@ header+section {
 .main_slider_area .slider-progress .slider_progress_bar {
     width: 0;
     height: 100%;
-    background-image: linear-gradient(90deg, #f27507 0, #f2bf27 100%);
+    background-image: linear-gradient(90deg, #004c33 0, #f2bf27 100%);
     transition: all 0s linear
 }
 
@@ -1841,8 +1849,8 @@ header+section {
     animation: spinner 3s infinite linear;
     border-radius: 50%;
     border: 3px solid #fff;
-    border-left-color: #f27507;
-    border-top-color: #f27507;
+    border-left-color: #004c33;
+    border-top-color: #004c33;
     margin: 0 auto 0 auto;
     position: absolute;
     left: 0;
@@ -1894,7 +1902,7 @@ header+section {
 
 .video_btn:hover .icon {
     background: #fff;
-    color: #f27507
+    color: #004c33
 }
 
 .cons_shop_banner_area {
@@ -1918,7 +1926,7 @@ header+section {
 
 .cons_shop_banner_area .cons_shop_banner_left .shop_banner_content h3 {
     font-size: 36px;
-    color: #f27507;
+    color: #004c33;
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 20px
@@ -2060,7 +2068,7 @@ header+section {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     font-size: 16px;
-    color: #f27507
+    color: #004c33
 }
 
 .cons_about_content ul li+li {
@@ -2087,7 +2095,7 @@ header+section {
 .expreence_info .expreence_item h3 {
     font-size: 60px;
     font-weight: 600;
-    color: #f27507
+    color: #004c33
 }
 
 .expreence_info .expreence_item h5 {
@@ -2271,11 +2279,11 @@ header+section {
 }
 
 .cons_about_area_seven .team_img_info .cons_team_col:nth-child(1) {
-    flex: 0 0 55%
+    flex: 0 0 100%
 }
 
 .cons_about_area_seven .team_img_info .cons_team_col:nth-child(2) {
-    flex: 0 0 45%
+    flex: 0 0 100%
 }
 
 .cons_introduction_area {
@@ -2356,7 +2364,7 @@ header+section {
 .cons_action_info {
     box-shadow: 0 45px 150px 0 rgba(242, 225, 194, .2);
     border-radius: 2px;
-    background: #f27507;
+    background: #004c33;
     display: flex;
     flex-wrap: wrap;
     padding: 86px 100px;
@@ -2429,7 +2437,7 @@ header+section {
 }
 
 .cons_action_info_two .action_text .theme_btn {
-    background: #f27507;
+    background: #004c33;
     padding: 10px 70px;
     margin-left: 70px
 }
@@ -2439,7 +2447,7 @@ header+section {
 }
 
 .cons_action_info_two .action_text .theme_btn:hover {
-    color: #f27507
+    color: #004c33
 }
 
 .cons_action_area_four {
@@ -2472,7 +2480,7 @@ header+section {
 }
 
 .cons_action_area_six .cons_action_info .text {
-    color: #f27507
+    color: #004c33
 }
 
 .cons_work_area {
@@ -2554,7 +2562,7 @@ header+section {
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    background: #f27507;
+    background: #004c33;
     text-align: center;
     line-height: 120px;
     transition: all .2s linear
@@ -2646,7 +2654,7 @@ header+section {
 .achievment_item .media-body h5 {
     font-size: 24px;
     font-weight: 700;
-    color: #f27507;
+    color: #004c33;
     margin-bottom: 15px
 }
 
@@ -2663,7 +2671,7 @@ header+section {
 }
 
 .achievment_item .media-body p a:hover {
-    color: #f27507
+    color: #004c33
 }
 
 .cons_features_area_one {
@@ -2719,7 +2727,7 @@ header+section {
 
 .cons_features_item_two i {
     font-size: 80px;
-    color: #f27507;
+    color: #004c33;
     margin-bottom: 45px;
     display: block
 }
@@ -2730,11 +2738,12 @@ header+section {
 }
 
 .cons_features_item_two .page_head:hover {
-    color: #f27507
+    color: #004c33
 }
 
 .cons_service_area {
-    padding-bottom: 150px
+    padding-top:150px;
+    padding-bottom: 150px;
 }
 
 .service_tab {
@@ -2774,7 +2783,7 @@ header+section {
     right: 0;
     bottom: 0;
     left: auto;
-    background: #f27507;
+    background: #004c33;
     transition: width .5s linear
 }
 
@@ -2865,7 +2874,7 @@ header+section {
 
 .cons_service_quality_item i {
     font-size: 80px;
-    color: #f27507;
+    color: #004c33;
     margin-bottom: 30px;
     display: block
 }
@@ -2880,7 +2889,7 @@ header+section {
 }
 
 .cons_service_quality_item h4:hover {
-    color: #f27507
+    color: #004c33
 }
 
 .cons_service_quality_item p {
@@ -2927,7 +2936,7 @@ header+section {
     height: 50px;
     line-height: 52px;
     border-radius: 50%;
-    background: #f27507;
+    background: #004c33;
     color: #fff;
     text-align: center;
     display: inline-block;
@@ -2944,7 +2953,7 @@ header+section {
 
 .cons_accordian .card .card-header button.collapsed .icon {
     background: #f2e1c2;
-    color: #f27507
+    color: #004c33
 }
 
 .cons_accordian .card .card-header button.collapsed .icon i {
@@ -2972,7 +2981,7 @@ header+section {
 
 .work_process_item i {
     font-size: 90px;
-    color: #f27507
+    color: #004c33
 }
 
 .work_process_item .arrow {
@@ -2982,7 +2991,7 @@ header+section {
     background: #f2e1c2;
     border-radius: 50%;
     line-height: 50px;
-    color: #f27507;
+    color: #004c33;
     right: -40px;
     top: 25px;
     text-align: center
@@ -3062,8 +3071,8 @@ header+section {
 }
 
 .cons_offer_service_area .offer_service_item:hover:before {
-    opacity: .9;
-    background: #f27507
+    opacity:1;
+    background:#012217
 }
 
 .cons_offer_service_area .offer_service_item:hover .icon {
@@ -3155,7 +3164,7 @@ header+section {
 }
 
 .cons_offer_service_area_two .offer_service_item .hover-content .icon {
-    color: #f27507
+    color: #004c33
 }
 
 .cons_offer_service_area_two .offer_service_item .hover-content h4 {
@@ -3236,7 +3245,7 @@ header+section {
 
 .cons_offer_service_area_four .offer_service_item {
     border-radius: 2px;
-    background-color: #fff;
+    background-color:#004c33;
     box-shadow: 0 45px 150px 0 rgba(30, 34, 40, .1)
 }
 
@@ -3245,16 +3254,17 @@ header+section {
 }
 
 .cons_offer_service_area_four .offer_service_item .hover-content {
-    bottom: -64px
+    bottom: -64px;
 }
 
 .cons_offer_service_area_four .offer_service_item:hover .hover-content h4 {
-    color: #1e2228
+    color: #fff;
 }
 
 .cons_offer_service_area_four .offer_service_item:hover .hover-content .icon,
 .cons_offer_service_area_four .offer_service_item:hover .hover-content .text_btn {
-    color: #f27507
+    color: #f2f1f1
+    
 }
 
 .cons_service_area_three {
@@ -3289,7 +3299,7 @@ header+section {
 
 .cons_service_area_three .cons_service_slider .item .testimonial_content .service_icon i {
     font-size: 55px;
-    color: #f27507;
+    color: #004c33;
     margin-right: 55px
 }
 
@@ -3303,7 +3313,7 @@ header+section {
 }
 
 .cons_service_area_three .cons_service_slider .item .testimonial_content:hover {
-    background: #f27507
+    background: #004c33
 }
 
 .cons_service_area_three .cons_service_slider .item .testimonial_content:hover .service_icon,
@@ -3362,7 +3372,7 @@ header+section {
     transform: translateY(0);
     margin: 0 auto;
     background: rgba(54, 61, 72, .2);
-    color: #f27507
+    color: #004c33
 }
 
 .service_step_item .number_circle:before {
@@ -3413,7 +3423,7 @@ header+section {
 
 .cons_choose_item i {
     font-size: 72px;
-    color: #f27507;
+    color: #004c33;
     display: block;
     margin-bottom: 44px
 }
@@ -3427,7 +3437,7 @@ header+section {
 }
 
 .cons_choose_item h5:hover {
-    color: #f27507
+    color: #004c33
 }
 
 .cons_choose_item p {
@@ -3466,8 +3476,8 @@ header+section {
     border-radius: 50%;
     text-align: center;
     font-size: 30px;
-    border: 2px solid #f27507;
-    color: #f27507;
+    border: 2px solid #004c33;
+    color: #004c33;
     line-height: 120px;
     display: block;
     margin: 90px auto 40px;
@@ -3475,14 +3485,14 @@ header+section {
 }
 
 .cons_how_work_area_two .play_btn .icon:hover {
-    background: #f27507;
+    background: #004c33;
     color: #fff
 }
 
 .cons_how_work_area_two .play_btn span {
     font-size: 16px;
     font-weight: 600;
-    color: #f27507
+    color: #004c33
 }
 
 .cons_shop_service_area {
@@ -3514,7 +3524,7 @@ header+section {
 }
 
 .cons_service_item:hover i {
-    color: #f27507
+    color: #004c33
 }
 
 .cons_service_area_five .cons_custom_right {
@@ -3528,7 +3538,7 @@ header+section {
 
 .cons_service_area_five .cons_service_slider .item .testimonial_content i {
     font-size: 60px;
-    color: #f27507
+    color: #004c33
 }
 
 .cons_service_area_five .cons_service_slider .item .testimonial_content h3 {
@@ -3540,7 +3550,7 @@ header+section {
 }
 
 .cons_service_area_five .cons_service_slider .item .testimonial_content .text_btn {
-    color: #f27507;
+    color: #004c33;
     margin-top: 20px
 }
 
@@ -3599,11 +3609,11 @@ header+section {
     font-size: 14px;
     border-radius: 50%;
     color: #1e2228;
-    border: 2px solid #f27507
+    border: 2px solid #004c33
 }
 
 .cons_service_area_five .slick-arrow.arrow_next:hover {
-    background: #f27507;
+    background: #004c33;
     color: #fff
 }
 
@@ -3737,7 +3747,7 @@ header+section {
     font-size: 18px;
     text-align: center;
     line-height: 60px;
-    color: #f27507;
+    color: #004c33;
     background: #f2e1c2;
     border-radius: 50%;
     display: inline-block;
@@ -3753,7 +3763,7 @@ header+section {
 }
 
 .custom_arrow .slick-arrow:hover {
-    background: #f27507;
+    background: #004c33;
     color: #fff
 }
 
@@ -3773,7 +3783,7 @@ header+section {
     content: "";
     width: 100%;
     height: 100%;
-    border: 1px solid #f27507;
+    border: 1px solid #004c33;
     position: absolute;
     top: 0;
     left: 0;
@@ -3887,7 +3897,7 @@ header+section {
 
 .portfolio_filter .portfolio_filter_item.active,
 .portfolio_filter .portfolio_filter_item:hover {
-    color: #f27507
+    color: #004c33
 }
 
 .portfolio_item {
@@ -4060,7 +4070,7 @@ header+section {
     content: "";
     width: 3px;
     height: 100%;
-    background: #f27507;
+    background: #004c33;
     position: absolute;
     right: 30px
 }
@@ -4131,7 +4141,7 @@ header+section {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background: #f27507;
+    background: #004c33;
     text-align: center;
     line-height: 52px;
     transition: all .2s linear
@@ -4416,11 +4426,11 @@ header+section {
 }
 
 .cons_projects_info_two .cons_projects_item .img:hover .number_circle:after {
-    background: #f27507
+    background: #004c33
 }
 
 .cons_projects_info_two .cons_projects_item .img:hover .number_circle span {
-    background: #f27507
+    background: #004c33
 }
 
 .cons_projects_info_two .cons_projects_item .img:hover .pr_img:before {
@@ -4448,7 +4458,7 @@ header+section {
     transition: all .2s linear;
     transform: translateX(-100%);
     z-index: 1;
-    background: #f27507
+    background: #004c33
 }
 
 .cons_projects_info_two .cons_projects_item .pr_img img {
@@ -4486,11 +4496,11 @@ header+section {
 }
 
 .cons_projects_info_two .cons_projects_item .media-body h2:hover {
-    color: #f27507
+    color: #004c33
 }
 
 .cons_projects_info_two .cons_projects_item .media-body .btn_explor {
-    color: #f27507;
+    color: #004c33;
     font-size: 12px;
     font-weight: 500;
     display: inline-block;
@@ -4524,7 +4534,7 @@ header+section {
 
 .cons_projects_area_eight .cons_project_slider_five .pr_slider_item .hover-content h5 {
     text-transform: uppercase;
-    color: #f27507;
+    color: #004c33;
     font-size: 14px;
     font-weight: 600;
     margin-bottom: 25px
@@ -4566,7 +4576,7 @@ header+section {
 }
 
 .cons_projects_area_nine .pr_slider_item:hover::before {
-    background: #f27507;
+    background: #004c33;
     opacity: .95
 }
 
@@ -4577,7 +4587,9 @@ header+section {
 .cons_testimonial_area {
     display: flex;
     flex-wrap: wrap;
-    padding: 50px 0
+    padding: 50px 0;
+    width:80%;
+    align-items:left;
 }
 
 .cons_custom_left {
@@ -4603,7 +4615,7 @@ header+section {
 
 .cons_testimonial_slider .item .testimonial_content {
     border-radius: 2px;
-    background-color: #fff;
+    background-color: #004c33;
     box-shadow: 35px 18px 150px 0 rgba(30, 34, 40, .1);
     opacity: .3;
     padding: 25px 100px 70px;
@@ -4617,7 +4629,7 @@ header+section {
     background: #f2e1c2;
     text-align: center;
     font-size: 18px;
-    color: #f27507;
+    color: #004c33;
     line-height: 60px;
     display: inline-block;
     position: relative;
@@ -4641,12 +4653,12 @@ header+section {
 }
 
 .cons_testimonial_slider.testimonial_round .item .testimonial_content .quote_icon {
-    background: #f27507;
+    background: #004c33;
     color: #fff
 }
 
 .cons_testimonial_slider.testimonial_round .item .testimonial_content .quote_icon:before {
-    border-color: #f27507
+    border-color: #004c33
 }
 
 .slick-dots {
@@ -4677,7 +4689,7 @@ header+section {
     left: 50%;
     border-radius: 50%;
     opacity: 1;
-    border: 1px solid #f27507;
+    border: 1px solid #004c33;
     margin-top: -7px;
     margin-left: -7px;
     transform: scale(0);
@@ -4686,7 +4698,7 @@ header+section {
 
 .slick-dots li.slick-active button,
 .slick-dots li:hover button {
-    background: #f27507
+    background: #004c33
 }
 
 .slick-dots li.slick-active button:before,
@@ -4765,7 +4777,7 @@ header+section {
 .slick-next:hover,
 .slick-prev:focus,
 .slick-prev:hover {
-    background: #f27507;
+    background: #004c33;
     color: #fff
 }
 
@@ -4803,8 +4815,8 @@ header+section {
 
 .testimonail_arrow .slick-next:hover,
 .testimonail_arrow .slick-prev:hover {
-    border-color: #f27507;
-    background: #f27507
+    border-color: #004c33;
+    background: #004c33
 }
 
 .testimonail_arrow .slick-next:hover:before,
@@ -4954,7 +4966,7 @@ header+section {
 
 .cons_testimonial_area_six .cons_testimonial_slider .item .testimonial_content .quote_icon {
     top: 0;
-    border: 1px solid #f27507;
+    border: 1px solid #004c33;
     background: 0 0;
     margin-bottom: 57px
 }
@@ -4988,7 +5000,7 @@ header+section {
 
 .twitter_info .twitter_slider a {
     font-weight: 500;
-    color: #f27507
+    color: #004c33
 }
 
 .twitter_info .twitter_slider i {
@@ -5015,7 +5027,7 @@ header+section {
     border-radius: 50%;
     text-align: center;
     text-align: center;
-    color: #f27507;
+    color: #004c33;
     font-size: 15px;
     background: #fafafa;
     line-height: 60px;
@@ -5079,7 +5091,7 @@ header+section {
     height: 100%;
     top: 0;
     left: 0;
-    background: #f27507;
+    background: #004c33;
     z-index: 0;
     opacity: 0;
     transition: opacity .4s
@@ -5132,7 +5144,7 @@ header+section {
     display: flex;
     align-items: center;
     text-align: center;
-    background: #f27507;
+    background: #004c33;
     transition: opacity .3s linear;
     opacity: 0
 }
@@ -5398,7 +5410,7 @@ header+section {
 .cons_subscribe_form .theme_btn {
     border: 0;
     /* margin-left: 20px; */
-    background: #f27507;
+    background: #004c33;
     padding-left: 67px;
     padding-right: 67px;
     color: #fff
@@ -5489,7 +5501,7 @@ header+section {
 .fact_item h3 {
     font-size: 60px;
     font-weight: 600;
-    color: #f27507;
+    color: #004c33;
     margin-bottom: 15px
 }
 
@@ -5618,7 +5630,7 @@ header+section {
 }
 
 .cons_subscribe_area_three .cons_contact_info_two {
-    background: #f27507;
+    background: #004c33;
     padding: 138px 150px
 }
 
@@ -5783,7 +5795,7 @@ header+section {
 
 .error_area h5 {
     font: 600 14px Montserrat, sans-serif;
-    color: #f27507;
+    color: #004c33;
     letter-spacing: 2.1px;
     text-transform: uppercase;
     margin-top: 150px;
@@ -5813,12 +5825,12 @@ header+section {
 }
 
 .breadcrumb_area {
-    background: #f7f5f9;
+    background: #2a303a;
     padding: 68px 0
 }
 
 .breadcrumb_area h4 {
-    color: #1e2228;
+    color: #f7f5f9;
     margin-bottom: 0;
     font: 600 24px Montserrat, sans-serif
 }
@@ -5847,7 +5859,7 @@ header+section {
 }
 
 .about_main_area {
-    padding-top: 190px
+    padding-top: 100px
 }
 
 .about_main_area .about_inner {
@@ -5962,7 +5974,7 @@ header+section {
 
 .service_item .service_icon i {
     font-size: 55px;
-    color: #f27507;
+    color: #004c33;
     margin-right: 55px
 }
 
@@ -5972,11 +5984,11 @@ header+section {
 }
 
 .service_item .theme_btn_two:after {
-    background: #f27507
+    background: #004c33
 }
 
 .service_item:hover {
-    background: #f27507
+    background: #004c33
 }
 
 .service_item:hover .service_icon,
@@ -6041,13 +6053,13 @@ header+section {
 .service_details_text .left .nav li a i {
     position: absolute;
     left: 0;
-    color: #f27507;
+    color: #004c33;
     top: 5px;
     font-size: 14px
 }
 
 .service_details_text .left .nav li a:hover {
-    color: #f27507
+    color: #004c33
 }
 
 .service_details_text .left .nav li:last-child {
@@ -6094,7 +6106,7 @@ header+section {
 }
 
 .price_item h5 {
-    color: #f27507;
+    color: #004c33;
     font: 600 60px Montserrat, sans-serif;
     margin-bottom: 23px;
     transition: all .3s linear 0s
@@ -6133,11 +6145,11 @@ header+section {
 }
 
 .price_item .theme_btn_two:hover {
-    color: #f27507
+    color: #004c33
 }
 
 .price_item:hover {
-    background: #f27507
+    background: #004c33
 }
 
 .price_item:hover h5 {
@@ -6177,7 +6189,7 @@ header+section {
     border-radius: 50%;
     text-align: center;
     line-height: 60px;
-    color: #f27507;
+    color: #004c33;
     margin-bottom: 50px
 }
 
@@ -6364,13 +6376,13 @@ header+section {
     background: #f2e1c2;
     display: inline-block;
     line-height: 42px;
-    color: #f27507;
+    color: #004c33;
     transition: all .3s linear 0s
 }
 
 .share_icon li a:hover {
     color: #fff;
-    background: #f27507
+    background: #004c33
 }
 
 .share_icon li:first-child {
@@ -6442,7 +6454,7 @@ header+section {
 }
 
 .blog_l_item .blog_l_text h4:hover {
-    color: #f27507
+    color: #004c33
 }
 
 .blog_l_item .blog_l_text p {
@@ -6502,7 +6514,7 @@ header+section {
 }
 
 .blog_d_top_text .nav li:last-child a span {
-    color: #f27507
+    color: #004c33
 }
 
 .blog_d_top_text p {
@@ -6558,7 +6570,7 @@ header+section {
 }
 
 .simple_single .simple_text p a {
-    color: #f27507
+    color: #004c33
 }
 
 .conclusion_text {
@@ -6696,7 +6708,7 @@ header+section {
 }
 
 .contact_us_form .form-group input:focus {
-    border-color: #f27507
+    border-color: #004c33
 }
 
 .contact_us_form .form-group textarea {
@@ -6731,12 +6743,12 @@ header+section {
 }
 
 .contact_us_form .form-group textarea:focus {
-    border-color: #f27507
+    border-color: #004c33
 }
 
 .contact_us_form .form-group .theme_btn_three {
     width: 270px;
-    background: #f27507;
+    background: #004c33;
     color: #fff;
     height: 65px;
     font: 600 18px Montserrat, sans-serif;
@@ -6792,12 +6804,12 @@ header+section {
     line-height: 40px;
     display: inline-block;
     border-radius: 50%;
-    color: #f27507;
+    color: #004c33;
     transition: all .3s linear 0s
 }
 
 .our_f_item .team_name .nav li a:hover {
-    background: #f27507;
+    background: #004c33;
     color: #fff
 }
 
@@ -6816,7 +6828,7 @@ header+section {
 
 .team_details_area .team_d_text h6 {
     font: 500 18px Montserrat, sans-serif;
-    color: #f27507;
+    color: #004c33;
     margin-bottom: 45px
 }
 
@@ -6825,7 +6837,7 @@ header+section {
 }
 
 .team_details_area .team_d_text .theme_btn {
-    background: #f27507;
+    background: #004c33;
     color: #fff;
     height: 65px;
     width: 270px;
@@ -6903,7 +6915,7 @@ header+section {
 }
 
 .shop_pr_item .shop_content h3:hover {
-    color: #f27507
+    color: #004c33
 }
 
 .shop_pr_item .shop_content .price {
@@ -6939,7 +6951,7 @@ header+section {
 
 .shop_pr_item .shop_content .price ins {
     font-size: 18px;
-    color: #f27507;
+    color: #004c33;
     text-decoration: none
 }
 
@@ -7011,7 +7023,7 @@ header+section {
 }
 
 .pr_promo_info .promo_pr_item .content .price.yellow {
-    color: #f27507
+    color: #004c33
 }
 
 .pr_promo_info .promo_pr_item .content h3 {
@@ -7078,7 +7090,7 @@ header+section {
     text-align: center;
     line-height: 50px;
     font-size: 14px;
-    color: #f27507;
+    color: #004c33;
     background: #f2e1c2;
     transform: scale(.9);
     opacity: 0;
@@ -7218,7 +7230,7 @@ header+section {
 }
 
 .p_details_text .theme_btn_two {
-    background: #f27507;
+    background: #004c33;
     color: #fff;
     height: 65px;
     width: 270px;
@@ -7263,7 +7275,7 @@ header+section {
     content: "";
     width: 0;
     height: 1px;
-    background: #f27507;
+    background: #004c33;
     position: absolute;
     bottom: -1px;
     left: 0;
@@ -7335,7 +7347,7 @@ header+section {
 }
 
 .cons_blog_item:hover h3 {
-    color: #f27507
+    color: #004c33
 }
 
 .post_date {
@@ -7408,7 +7420,7 @@ header+section {
 }
 
 .cons_blog_item_two .media-body .text h4:hover {
-    color: #f27507
+    color: #004c33
 }
 
 .cons_blog_item_two .media-body .text p {
@@ -7441,7 +7453,7 @@ header+section {
     font-size: 60px;
     line-height: 60px;
     font-weight: 400;
-    color: #f27507;
+    color: #004c33;
     text-transform: capitalize;
     padding: 60px 10px
 }
@@ -7481,7 +7493,7 @@ header+section {
 }
 
 .cons_blog_item_three:hover .media-body .text h4 {
-    color: #f27507
+    color: #004c33
 }
 
 .cons_blog_item_three+.cons_blog_item_three {
@@ -7570,7 +7582,7 @@ header+section {
 }
 
 .contact_form .form-control:focus {
-    border-color: #f27507
+    border-color: #004c33
 }
 
 .contact_form textarea.form-control {
@@ -7659,7 +7671,7 @@ header+section {
 }
 
 .cons_contact_area_four .cons_contact_info_two.bg_gradient {
-    background-image: linear-gradient(90deg, rgba(253, 168, 33, .99608) 0, #f28607 100%)
+    background-image: linear-gradient(90deg, rgba(15, 78, 18, 0.996) 0, #f28607 100%)
 }
 
 .cons_contact_area_four .cons_contact_info_two.bg_gradient .contact_form .form-control {
@@ -7667,11 +7679,11 @@ header+section {
 }
 
 .footer_top {
-    padding: 150px 0 80px
+    padding: 150px 0 80px;
 }
 
 .f_widget .f_title {
-    font-size: 18px;
+    font-size: 24px;
     line-height: 28px;
     font-weight: 700;
     margin-bottom: 46px
@@ -7683,7 +7695,7 @@ header+section {
 }
 
 .f_about_widget p {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 30px;
     margin-bottom: 0
 }
@@ -7698,12 +7710,12 @@ header+section {
 }
 
 .f_social li a {
-    font-size: 14px;
+    font-size: 20px;
     color: #a8aaad
 }
 
 .f_social li a:hover {
-    color: #f27507
+    color: #004c33
 }
 
 .f_social li:last-child {
@@ -7719,7 +7731,7 @@ header+section {
 }
 
 .f_link li a {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 30px;
     display: inline-block;
     font-weight: 500;
@@ -7727,7 +7739,7 @@ header+section {
 }
 
 .f_link li a:hover {
-    color: #f27507
+    color: #004c33
 }
 
 .f_link_two {
@@ -7744,7 +7756,7 @@ header+section {
 }
 
 .contact_info_link li {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 30px;
     font-weight: 400;
     color: #7e8288
@@ -7760,7 +7772,7 @@ header+section {
 }
 
 .contact_info_link li a:hover {
-    color: #f27507
+    color: #004c33
 }
 
 .contact_info_link li+li {
@@ -7772,7 +7784,7 @@ header+section {
 }
 
 .f_subscribe_widget p {
-    font-size: 16px;
+    font-size: 20px;
     padding-top: 22px
 }
 
@@ -7786,7 +7798,7 @@ header+section {
     border-radius: 3px;
     padding-left: 30px;
     padding-right: 45px;
-    font-size: 15px;
+    font-size: 20px;
     color: #1e2228;
     transition: all .2s linear;
     background: 0 0;
@@ -7810,7 +7822,7 @@ header+section {
 }
 
 .f_subscribe .form-control:focus {
-    border-color: #f27507
+    border-color: #004c33
 }
 
 .f_subscribe .s_btn {
@@ -7846,7 +7858,7 @@ header+section {
 .footer_bottom .go_top {
     font-size: 16px;
     font-weight: 500;
-    color: #f27507
+    color: #004c33
 }
 
 .footer_bottom .go_top i {
@@ -7854,15 +7866,15 @@ header+section {
     height: 60px;
     text-align: center;
     line-height: 58px;
-    color: #f27507;
-    border: 2px solid #f27507;
+    color: #004c33;
+    border: 2px solid #004c33;
     transition: all .2s linear;
     border-radius: 50%;
     margin-left: 28px
 }
 
 .footer_bottom .go_top i:hover {
-    background: #f27507;
+    background: #004c33;
     color: #fff
 }
 
@@ -8025,7 +8037,7 @@ header+section {
     left: 20px;
     right: 20px;
     bottom: 20px;
-    background: #f27507
+    background: #004c33
 }
 
 .dark_bg {
@@ -8054,12 +8066,12 @@ header+section {
 }
 
 .dark_bg .cons_testimonial_slider .item .testimonial_content {
-    background: #f27507
+    background: #004c33
 }
 
 .dark_bg .fact_item h3,
 .dark_bg .title_top {
-    color: #f27507
+    color: #004c33
 }
 
 .dark_bg .cons_offer_service_area_four .offer_service_item {
@@ -8094,7 +8106,7 @@ header+section {
 .dark_bg .cons_about_content .theme_btn:hover,
 .dark_bg .cons_action_info_three .theme_btn_three:hover,
 .dark_bg .cons_contact_info .theme_btn_three:hover {
-    color: #f27507
+    color: #004c33
 }
 
 .dark_bg .cons_service_area_two .service_tab {

@@ -5,11 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Quper Construction template" />
-    <link
-      rel="shortcut icon"
-      href="assets/img/favicon.ico"
-      type="image/x-icon"
-    />
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon" />
     <title>Inventa Technologies</title>
     <!-- Bootstrap CSS -->
     <link
@@ -31,7 +27,7 @@
   </head>
 
   <body>
-    <div class="body_wrapper dark_bg">
+    <div class="body_wrapper">
       <div id="preloader">
         <div class="product_name">Inventa</div>
       </div>
@@ -49,7 +45,7 @@
                   </li>
                   <li>
                     <a href="tell:451951127851"
-                      ><i class="fas fa-phone"></i>+451 - 951 127 851</a
+                      ><i class="fas fa-phone"></i>+91 70940 71164</a
                     >
                   </li>
                   <li>
@@ -76,24 +72,21 @@
         <nav class="navbar navbar-expand-lg" id="header">
           <div class="container">
             <a class="navbar-brand" href="#"
-              ><img src="assets/img/logowcolor.png" alt="logo"
+              ><img src="assets/img/logo.png" class="brand-logo" alt="logo"
             /></a>
             <div class="collapse navbar-collapse">
               <ul class="navbar-nav menu ml-auto">
                 <li class="nav-item dropdown submenu active">
-                  <a href="#" class="nav-link"> Home </a>
+                  <a href="index.html" class="nav-link"> Home </a>
                 </li>
                 <li class="nav-item dropdown submenu">
-                  <a href="#" class="nav-link"> About Us </a>
+                  <a href="about.html" class="nav-link"> About Us </a>
                 </li>
                 <li class="nav-item dropdown submenu">
-                  <a href="#" class="nav-link"> Works </a>
+                  <a href="projects.html" class="nav-link"> Products </a>
                 </li>
                 <li class="nav-item dropdown submenu">
-                  <a href="#" class="nav-link"> Services </a>
-                </li>
-                <li class="nav-item dropdown submenu">
-                  <a class="nav-link" href="#"> Blogs </a>
+                  <a class="nav-link" href="404.html"> Blogs </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="contact.html">Contact</a>
@@ -116,7 +109,9 @@
         <div class="main_slider">
           <div
             class="slider_item"
-            style="background-image: url('./assets/img/slider_1.jpg')"
+            style="
+              background-image: url('./assets/img/home/slider-bg/compounding.png');
+            "
           >
             <div class="overlay_bg"></div>
             <div class="container">
@@ -140,7 +135,9 @@
           </div>
           <div
             class="slider_item"
-            style="background-image: url('./assets/img/slider_2.jpg')"
+            style="
+              background-image: url('./assets/img/home/slider-bg/slider-2.png');
+            "
           >
             <div class="overlay_bg"></div>
             <div class="container">
@@ -162,6 +159,12 @@
               </div>
             </div>
           </div>
+          <div
+            class="slider_item"
+            style="
+              background-image: url('./assets/img/home/slider-bg/interior.jpg');
+            "
+          ></div>
         </div>
         <div class="slider_nav">
           <i class="fas fa-angle-left slider_left_arrow"></i>
@@ -174,19 +177,16 @@
         <div class="close_btn">X</div>
         <ul class="list-unstyled mb_menu wd_scroll">
           <li class="menu-item-has-children active">
-            <a href="#">Home</a>
+            <a href="index.html">Home</a>
           </li>
           <li class="menu-item-has-children">
-            <a href="#"> About Us</a>
+            <a href="about.html"> About Us</a>
           </li>
           <li class="menu-item-has-children">
-            <a href="#"> Works </a>
+            <a href="projects.html"> Products </a>
           </li>
           <li class="menu-item-has-children">
-            <a href="#"> Services </a>
-          </li>
-          <li class="menu-item-has-children">
-            <a href="#"> Blogs </a>
+            <a href="404.html"> Blogs </a>
           </li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
@@ -220,7 +220,7 @@
             <div class="col-lg-6 col-sm-12">
               <div class="offer_service_item pr_slider_item">
                 <div class="hover-content">
-                  <i class="fas fa-fire fa-5x"></i>
+                  <i class="fas fa-fire fa-5x" style="color: #fff"></i>
                   <a href="#">
                     <h4>Polymer Compounding</h4>
                   </a>
@@ -234,7 +234,7 @@
             <div class="col-lg-6 col-sm-12">
               <div class="offer_service_item pr_slider_item">
                 <div class="hover-content">
-                  <i class="fas fa-recycle fa-5x"></i>
+                  <i class="fas fa-recycle fa-5x" style="color: #fff"></i>
                   <a href="#">
                     <h4>Technical upcycling</h4>
                   </a>
@@ -257,19 +257,17 @@
               <div class="cons_about_img">
                 <img
                   class="one"
-                  src="assets/img/home-one/cons_about1.jpg"
+                  src="assets/img/home/cons_about1.webp"
                   alt=""
+                  style="width: 500px; height: 500px"
                 />
                 <img
                   class="two"
-                  src="assets/img/home-one/cons_about2.png"
+                  src="assets/img/home/cons_about2.png"
                   alt=""
+                  style="width: 300px; height: 450px"
                 />
-                <img
-                  class="dot"
-                  src="assets/img/home_one_dark/dots.png"
-                  alt=""
-                />
+                <img class="dot" src="assets/img/home/dots.png" alt="" />
               </div>
             </div>
             <div class="col-lg-4">
@@ -410,7 +408,7 @@
           <div class="cons_testimonial_slider" id="testimonial">
             <div class="item">
               <div class="testimonial_content">
-                <div class="quote_icon">
+                <div class="quote_icon" style="background-color: #000">
                   <i class="fas fa-quote-left"></i>
                 </div>
                 <h3 class="testimonail_text">
@@ -428,7 +426,7 @@
             </div>
             <div class="item">
               <div class="testimonial_content">
-                <div class="quote_icon">
+                <div class="quote_icon" style="background-color: #000">
                   <i class="fas fa-quote-left"></i>
                 </div>
                 <h3 class="testimonail_text">
@@ -446,7 +444,7 @@
             </div>
             <div class="item">
               <div class="testimonial_content">
-                <div class="quote_icon">
+                <div class="quote_icon" style="background-color: #000">
                   <i class="fas fa-quote-left"></i>
                 </div>
                 <h3 class="testimonail_text">
@@ -475,8 +473,11 @@
                 <h6 class="title_top">our Team</h6>
                 <h2 class="title_head">Meet our team of professionals</h2>
                 <p>
-                  More and more professionals join us to work as a team and
-                  complement our skills in a big way.
+                  Together the Team has more than 180 years of collective
+                  experience of Innovation & Customer Solutions, in the fields
+                  of Polymer chemistry-formulation, process compounding,
+                  Technical Recycling, Process machineries, Clients applications
+                  / challenges.
                 </p>
                 <a href="#" class="text_btn" data-text="Meet the team"
                   >Meet the team</a
@@ -487,26 +488,21 @@
               <div class="team_img_info">
                 <img
                   class="dot_middle"
-                  src="assets/img/home-one/feature_dot.png"
+                  src="assets/img/team/feature_dot.png"
                   alt=""
                 />
                 <div class="row">
-                  <div class="col-6 cons_team_col">
+                  <div class="col-12 cons_team_col">
                     <a
                       href="#"
                       class="cons_team_item"
                       data-parallax='{"x": 0, "y": 50}'
                     >
-                      <img src="assets/img/home-one/team1.jpg" alt="" />
-                    </a>
-                  </div>
-                  <div class="col-6 cons_team_col">
-                    <a
-                      href="#"
-                      class="cons_team_item"
-                      data-parallax='{"x": 0, "y": -50}'
-                    >
-                      <img src="assets/img/home-one/team2.jpg" alt="" />
+                      <img
+                        src="assets/img/team/Inventa-team.png"
+                        alt=""
+                        style="height: 500px; width: 580px"
+                      />
                     </a>
                   </div>
                 </div>
@@ -521,8 +517,8 @@
         <div
           class="cons_subscribe_info parallaxie"
           style="
-            background: url(assets/img/home-one/subscribe_bg.jpg) no-repeat
-              scroll center 0 / cover;
+            background: url(assets/img/home/cons_about2.png) no-repeat scroll
+              center 0 / cover;
           "
         >
           <div class="overlay"></div>
@@ -566,7 +562,7 @@
               <div class="col-lg-4 col-sm-6">
                 <div class="f_widget f_about_widget">
                   <a href="#" class="f_logo">
-                    <img src="assets/img/logowcolor.png" alt="" />
+                    <img src="assets/img/logo.png" alt="" />
                   </a>
                   <p>
                     At Inventa we care about each client and each person who
@@ -598,7 +594,7 @@
                   <h3 class="f_title">Contact Us</h3>
                   <ul class="list-unstyled contact_info_link">
                     <li>
-                      Phone: <a href="tel:051958237851">+051 - 958 237 851</a>
+                      Phone: <a href="tel:051958237851">+91 70940 71164</a>
                     </li>
                     <li>
                       Email:
